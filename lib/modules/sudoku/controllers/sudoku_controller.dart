@@ -75,8 +75,9 @@ class SudokuController extends GetxController {
   void inputNumber(int num) {
     if (isGameOver.value) return;
     if (selectedRow.value == -1 || selectedCol.value == -1) return;
-    if (initialMask[selectedRow.value][selectedCol.value])
+    if (initialMask[selectedRow.value][selectedCol.value]) {
       return; // Cannot edit initial cells
+    }
 
     // Updating the observable list properly requires triggering update
     var newBoard = board.map((e) => List<int>.from(e)).toList();
