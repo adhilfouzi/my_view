@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'public_home_controller.dart';
 import '../../theme/app_theme.dart';
+import '../game/models/game_model.dart';
+import '../game/views/game_view.dart';
+import '../sudoku/views/sudoku_view.dart';
 
 class PublicHomeView extends GetView<PublicHomeController> {
   const PublicHomeView({super.key});
@@ -142,12 +145,33 @@ class PublicHomeView extends GetView<PublicHomeController> {
     ];
     final gradient = gradients[index % gradients.length];
 
-    // Icons mapping (simple heuristic for demo)
+    // Icons mapping
     IconData icon = Icons.games;
-    if (title.contains("Math")) icon = Icons.calculate;
-    if (title.contains("Puzzle")) icon = Icons.extension;
-    if (title.contains("Chess")) icon = Icons.gradient;
-    if (title.contains("Word")) icon = Icons.text_fields;
+    Subject subject = Subject.math;
+    AgeGroup age = AgeGroup.teens; // Default
+
+    // Heuristic for Demo
+    if (title.contains("Sudoku")) {
+      return _buildSudokuCard(title, gradient);
+    }
+    if (title.contains("Math")) {
+      icon = Icons.calculate;
+      subject = Subject.math;
+    }
+    if (title.contains("Puzzle")) {
+      icon = Icons.extension;
+      age = AgeGroup.kids;
+    }
+    if (title.contains("Chess")) {
+      icon = Icons.gradient;
+      age = AgeGroup.students;
+    }
+    if (title.contains("Word")) {
+      icon = Icons.text_fields;
+    }
+    if (title.contains("Science") || title.contains("Space")) {
+      subject = Subject.science;
+    }
 
     return Container(
       decoration: BoxDecoration(
@@ -165,15 +189,10 @@ class PublicHomeView extends GetView<PublicHomeController> {
         color: Colors.transparent,
         child: InkWell(
           onTap: () {
-            Get.snackbar(
-              "Start Game",
-              "Launching $title...",
-              colorText: Colors.white,
-              backgroundColor: AppColors.surface.withValues(alpha: 0.9),
-              snackPosition: SnackPosition.BOTTOM,
-              margin: const EdgeInsets.all(20),
-              borderRadius: 20,
-              icon: Icon(Icons.play_circle_fill, color: gradient[1]),
+            // Launch Game Engine
+            Get.to(
+              () => GameView(ageGroup: age, subject: subject),
+              transition: Transition.zoom,
             );
           },
           borderRadius: BorderRadius.circular(24),
@@ -229,8 +248,99 @@ class PublicHomeView extends GetView<PublicHomeController> {
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          "Casual",
+                          "${age.name.capitalizeFirst} • Casual",
                           style: const TextStyle(
+                            color: AppColors.textSecondary,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSudokuCard(String title, List<Color> gradient) {
+    return Container(
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(24),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.2),
+            blurRadius: 8,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: () {
+            Get.to(() => const SudokuView(), transition: Transition.zoom);
+          },
+          borderRadius: BorderRadius.circular(24),
+          child: Stack(
+            children: [
+              // Decorative Circle
+              Positioned(
+                right: -20,
+                top: -20,
+                child: Container(
+                  width: 100,
+                  height: 100,
+                  decoration: BoxDecoration(
+                    color: gradient[0].withValues(alpha: 0.2),
+                    shape: BoxShape.circle,
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(colors: gradient),
+                        borderRadius: BorderRadius.circular(16),
+                        boxShadow: [
+                          BoxShadow(
+                            color: gradient[0].withValues(alpha: 0.4),
+                            blurRadius: 8,
+                            offset: const Offset(0, 2),
+                          ),
+                        ],
+                      ),
+                      child: const Icon(
+                        Icons.grid_on,
+                        color: Colors.white,
+                        size: 28,
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          title,
+                          style: const TextStyle(
+                            color: AppColors.textPrimary,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                        const SizedBox(height: 4),
+                        const Text(
+                          "Logic • Master",
+                          style: TextStyle(
                             color: AppColors.textSecondary,
                             fontSize: 12,
                           ),

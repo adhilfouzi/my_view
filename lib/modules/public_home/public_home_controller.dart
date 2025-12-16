@@ -12,8 +12,8 @@ class PublicHomeController extends GetxController {
     'Chess Pro',
     'Word Connect',
     '2048 Ultimate',
-    'Block Blast',
-    'Brain Test',
+    'Space Science',
+    'Physics Lab',
   ].obs;
 
   final RxList<String> filteredGames = <String>[].obs;
