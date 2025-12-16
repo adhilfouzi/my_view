@@ -347,18 +347,19 @@ class _SecureBrowserState extends State<SecureBrowser> {
         if (ext.isEmpty || ext.length > 5) {
           final contentType = response.headers['content-type'];
           if (contentType != null) {
-            if (contentType.contains('video/mp4'))
+            if (contentType.contains('video/mp4')) {
               ext = '.mp4';
-            else if (contentType.contains('video/webm'))
+            } else if (contentType.contains('video/webm')) {
               ext = '.webm';
-            else if (contentType.contains('image/png'))
+            } else if (contentType.contains('image/png')) {
               ext = '.png';
-            else if (contentType.contains('image/jpeg'))
+            } else if (contentType.contains('image/jpeg')) {
               ext = '.jpg';
-            else if (contentType.contains('image/gif'))
+            } else if (contentType.contains('image/gif')) {
               ext = '.gif';
-            else
+            } else {
               ext = '.bin'; // storage blob
+            }
           } else {
             ext = '.jpg'; // Fallback
           }
