@@ -92,44 +92,60 @@ class FileLocker extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Secret Files"),
+        title: const Text("Encrypted Files"),
         backgroundColor: Colors.black,
+        elevation: 0,
       ),
-      backgroundColor: Colors.grey[900],
+      backgroundColor: const Color(0xFF0F0F0F),
       floatingActionButton: FloatingActionButton(
         onPressed: controller.addFile,
-        backgroundColor: Colors.redAccent,
-        child: const Icon(Icons.add_a_photo),
+        backgroundColor: Colors.amberAccent,
+        child: const Icon(Icons.add_a_photo, color: Colors.black),
       ),
       body: Obx(() {
         if (controller.files.isEmpty) {
           return const Center(
             child: Text(
               "No secure files",
-              style: TextStyle(color: Colors.white54),
+              style: TextStyle(color: Colors.white24),
             ),
           );
         }
         return ListView.builder(
+          padding: const EdgeInsets.all(16),
           itemCount: controller.files.length,
           itemBuilder: (ctx, i) {
             final file = controller.files[i] as File;
             final name = p.basename(file.path);
-            return ListTile(
-              leading: const Icon(Icons.lock, color: Colors.amber),
-              title: Text(name, style: const TextStyle(color: Colors.white)),
-              subtitle: const Text(
-                "Encrypted Image",
-                style: TextStyle(color: Colors.grey),
+            return Container(
+              margin: const EdgeInsets.only(bottom: 12),
+              decoration: BoxDecoration(
+                color: const Color(0xFF1E1E1E),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: Colors.white10),
               ),
-              trailing: IconButton(
-                icon: const Icon(Icons.delete, color: Colors.red),
-                onPressed: () {
-                  file.deleteSync();
-                  controller._loadFiles();
-                },
+              child: ListTile(
+                leading: const Icon(Icons.lock, color: Colors.amberAccent),
+                title: Text(
+                  name,
+                  style: const TextStyle(
+                    color: Colors.white70,
+                    fontFamily: 'Courier',
+                  ),
+                ),
+                subtitle: const Text(
+                  "AES-256 Encrypted",
+                  style: TextStyle(color: Colors.white30, fontSize: 10),
+                ),
+                trailing: IconButton(
+                  icon: const Icon(Icons.delete, color: Colors.redAccent),
+                  onPressed: () {
+                    file.deleteSync();
+                    controller._loadFiles();
+                  },
+                ),
+                onTap: () => controller.openFile(file),
               ),
-              onTap: () => controller.openFile(file),
             );
           },
         );

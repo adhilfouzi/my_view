@@ -52,31 +52,43 @@ class _SecureBrowserState extends State<SecureBrowser> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFF111111),
       appBar: AppBar(
-        title: const Text("Browser"),
+        title: const Text(
+          "GHOST_NET",
+          style: TextStyle(fontFamily: 'Courier', color: Colors.cyanAccent),
+        ),
         backgroundColor: Colors.black,
+        elevation: 0,
+        bottom: isLoading
+            ? const PreferredSize(
+                preferredSize: Size.fromHeight(2),
+                child: LinearProgressIndicator(
+                  color: Colors.cyanAccent,
+                  backgroundColor: Colors.black,
+                ),
+              )
+            : null,
         actions: [
           IconButton(
-            icon: const Icon(Icons.refresh),
+            icon: const Icon(Icons.refresh, color: Colors.cyanAccent),
             onPressed: () => _controller.reload(),
           ),
           IconButton(
-            icon: const Icon(Icons.clear_all),
+            icon: const Icon(Icons.delete_sweep, color: Colors.redAccent),
             onPressed: () async {
               await _controller.clearCache();
-              ScaffoldMessenger.of(
-                Get.context!,
-              ).showSnackBar(const SnackBar(content: Text("Cache Cleared")));
+              Get.snackbar(
+                "Trace Cleared",
+                "Browser cache and storage wiped.",
+                colorText: Colors.white,
+                backgroundColor: Colors.red.withValues(alpha: 0.3),
+              );
             },
           ),
         ],
       ),
-      body: Stack(
-        children: [
-          WebViewWidget(controller: _controller),
-          if (isLoading) const Center(child: CircularProgressIndicator()),
-        ],
-      ),
+      body: WebViewWidget(controller: _controller),
     );
   }
 }
