@@ -5,6 +5,7 @@ import '../../theme/app_theme.dart';
 import '../game/models/game_model.dart';
 import '../game/views/game_view.dart';
 import '../sudoku/views/sudoku_view.dart';
+import '../chess/views/chess_view.dart';
 
 class PublicHomeView extends GetView<PublicHomeController> {
   const PublicHomeView({super.key});
@@ -165,6 +166,7 @@ class PublicHomeView extends GetView<PublicHomeController> {
     if (title.contains("Chess")) {
       icon = Icons.gradient;
       age = AgeGroup.students;
+      return _buildChessCard(title, gradient); // Custom card
     }
     if (title.contains("Word")) {
       icon = Icons.text_fields;
@@ -340,6 +342,97 @@ class PublicHomeView extends GetView<PublicHomeController> {
                         const SizedBox(height: 4),
                         const Text(
                           "Logic • Master",
+                          style: TextStyle(
+                            color: AppColors.textSecondary,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildChessCard(String title, List<Color> gradient) {
+    return Container(
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(24),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.2),
+            blurRadius: 8,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: () {
+            Get.to(() => const ChessView(), transition: Transition.zoom);
+          },
+          borderRadius: BorderRadius.circular(24),
+          child: Stack(
+            children: [
+              // Decorative Circle
+              Positioned(
+                right: -20,
+                top: -20,
+                child: Container(
+                  width: 100,
+                  height: 100,
+                  decoration: BoxDecoration(
+                    color: gradient[0].withValues(alpha: 0.2),
+                    shape: BoxShape.circle,
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(colors: gradient),
+                        borderRadius: BorderRadius.circular(16),
+                        boxShadow: [
+                          BoxShadow(
+                            color: gradient[0].withValues(alpha: 0.4),
+                            blurRadius: 8,
+                            offset: const Offset(0, 2),
+                          ),
+                        ],
+                      ),
+                      child: const Icon(
+                        Icons.shield,
+                        color: Colors.white,
+                        size: 28,
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          title,
+                          style: const TextStyle(
+                            color: AppColors.textPrimary,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                        const SizedBox(height: 4),
+                        const Text(
+                          "Strategy • Pro",
                           style: TextStyle(
                             color: AppColors.textSecondary,
                             fontSize: 12,

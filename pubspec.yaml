@@ -44,6 +44,7 @@ dependencies:
   crypto: ^3.0.3
   image_picker: ^1.0.4
   path: ^1.9.1
+  chess: ^0.8.1
 
 dev_dependencies:
   flutter_test:
