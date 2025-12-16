@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:get/get.dart';
-import 'package:flutter_windowmanager/flutter_windowmanager.dart';
+import 'package:screen_protector/screen_protector.dart';
 
 class SecretHomeController extends GetxController {
   @override
@@ -16,22 +16,21 @@ class SecretHomeController extends GetxController {
   }
 
   Future<void> _enableSecureMode() async {
-    if (Platform.isAndroid) {
-      try {
-        await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
-      } catch (e) {
-        // Handle error or ignore
-      }
+    // ScreenProtector works on iOS/Android
+    try {
+      await ScreenProtector.preventScreenshotOn();
+      await ScreenProtector.protectDataLeakageWithBlur(); // For iOS background
+    } catch (e) {
+      // Handle error
     }
   }
 
   Future<void> _disableSecureMode() async {
-    if (Platform.isAndroid) {
-      try {
-        await FlutterWindowManager.clearFlags(FlutterWindowManager.FLAG_SECURE);
-      } catch (e) {
-        // Handle error
-      }
+    try {
+      await ScreenProtector.preventScreenshotOff();
+      await ScreenProtector.protectDataLeakageWithBlurOff();
+    } catch (e) {
+      // Handle error
     }
   }
 }
