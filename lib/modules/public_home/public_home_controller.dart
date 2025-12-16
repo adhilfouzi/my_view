@@ -24,7 +24,7 @@ class PublicHomeController extends GetxController {
     filteredGames.value = games;
   }
 
-  void onSearch(String query) {
+  void onSearch(String query, bool isSubmitted) {
     if (query.isEmpty) {
       filteredGames.value = games;
       return;
@@ -38,10 +38,12 @@ class PublicHomeController extends GetxController {
     }
 
     // 2. UNLOCK FLOW
-    if (AuthService.to.verifyPassword(query)) {
-      searchController.clear();
-      Get.offNamed(Routes.secretHome);
-      return;
+    if (isSubmitted) {
+      if (AuthService.to.verifyPassword(query)) {
+        searchController.clear();
+        Get.offNamed(Routes.secretHome);
+        return;
+      }
     }
 
     // 3. NORMAL SEARCH

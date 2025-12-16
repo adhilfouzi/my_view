@@ -20,18 +20,97 @@ class _SecureBrowserState extends State<SecureBrowser> {
   final TextEditingController _urlController = TextEditingController();
   bool isLoading = true;
   bool _isPromptOpen = false; // Lock for dialog
+  bool _isAdBlockEnabled = true;
+
+  void _injectAdBlocker() {
+    if (!_isAdBlockEnabled) return;
+
+    // 1. Massive CSS List
+    const css = """
+      /* Generic ad containers */
+      div[id*='google_ads'], div[id*='div-gpt-ad'], div[class*='ad-'], div[class*='ads-'],
+      .ad-banner, .adsbygoogle, .ad_container, .ad-slot, .ad-wrapper, .adBox, .advertisement,
+      [id^='ad_'], [class^='ad_'], [id^='ads_'], [class^='ads_'],
+      
+      /* Iframes often used for ads */
+      iframe[id*='google_ads'], iframe[id*='ads-iframe'], iframe[src*='doubleclick'],
+      
+      /* Specific networks */
+      .taboola, .outbrain, .zergnet, .revcontent,
+      
+      /* Sticky footers / headers often used for ads */
+      .sticky-ad, .bottom-ad-bar
+      
+      { display:none !important; height:0px !important; width:0px !important; 
+        opacity:0 !important; visibility:hidden !important; pointer-events:none !important; }
+    """;
+
+    // 2. JavaScript Nuke Logic
+    const js =
+        """
+      (function() {
+        // A. Inject CSS
+        try {
+          var styleId = 'ghost-net-shield';
+          if (!document.getElementById(styleId)) {
+            var style = document.createElement('style');
+            style.id = styleId;
+            style.textContent = `$css`;
+            document.head.appendChild(style);
+            console.log('Ghost Net Shield: CSS Active');
+          }
+        } catch(e) {}
+
+        // B. Active DOM Removal
+        function nukeAds() {
+          var selectors = [
+            "iframe[id*='google_ads']", "iframe[src*='doubleclick']", 
+            ".adsbygoogle", ".ad-banner", "div[id*='div-gpt-ad']",
+            "a[href*='googleads']", "a[href*='doubleclick']"
+          ];
+          
+          selectors.forEach(sel => {
+            document.querySelectorAll(sel).forEach(el => el.remove());
+          });
+          
+          // Heuristic: remove small iframes that might be tracking pixels
+          // document.querySelectorAll('iframe').forEach(el => {
+          //   if(el.offsetWidth < 10 && el.offsetHeight < 10) el.remove();
+          // });
+        }
+
+        // C. Observers for dynamic content
+        var observer = new MutationObserver(function(mutations) {
+          nukeAds();
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+        
+        // D. Initial Nuke & Interval Backup
+        nukeAds();
+        setInterval(nukeAds, 3000); 
+
+        console.log('Ghost Net Shield: JS Active');
+      })();
+    """;
+
+    _controller.runJavaScript(js);
+  }
 
   @override
   void initState() {
     super.initState();
     _urlController.text = widget.initialUrl;
 
-    // Javascript to detect long press on images
+    // Javascript to detect long press on images and videos
     final String jsCode = """
       document.body.addEventListener('contextmenu', function(e) {
-        if (e.target.tagName === 'IMG') {
+        var target = e.target;
+        if (target.tagName === 'IMG') {
           e.preventDefault();
           SaveMediaChannel.postMessage(e.target.src);
+        } else if (target.tagName === 'VIDEO') {
+          e.preventDefault();
+          SaveMediaChannel.postMessage(target.currentSrc || target.src);
         }
       });
     """;
@@ -60,6 +139,7 @@ class _SecureBrowserState extends State<SecureBrowser> {
             if (mounted) {
               setState(() => isLoading = false);
               _controller.runJavaScript(jsCode);
+              _injectAdBlocker();
             }
           },
           onWebResourceError: (WebResourceError error) {},
@@ -131,7 +211,7 @@ class _SecureBrowserState extends State<SecureBrowser> {
               ),
               const SizedBox(height: 20),
               const Text(
-                "SAVE CAPTURE",
+                "SECURE SAVE",
                 style: TextStyle(
                   color: Colors.white,
                   fontFamily: 'Courier',
@@ -142,7 +222,7 @@ class _SecureBrowserState extends State<SecureBrowser> {
               ),
               const SizedBox(height: 12),
               Text(
-                "Do you want to save this resource?",
+                "Encrypt and store this media?",
                 style: TextStyle(color: Colors.grey[400], fontSize: 14),
                 textAlign: TextAlign.center,
               ),
@@ -259,8 +339,31 @@ class _SecureBrowserState extends State<SecureBrowser> {
         }
 
         final timestamp = DateTime.now().millisecondsSinceEpoch;
-        String ext = p.extension(url).split('?').first;
-        if (ext.isEmpty || ext.length > 5) ext = '.jpg';
+
+        // Smart extension guessing
+        String ext = p.extension(url).split('?').first.toLowerCase();
+
+        // If extension is missing or weird, check headers
+        if (ext.isEmpty || ext.length > 5) {
+          final contentType = response.headers['content-type'];
+          if (contentType != null) {
+            if (contentType.contains('video/mp4'))
+              ext = '.mp4';
+            else if (contentType.contains('video/webm'))
+              ext = '.webm';
+            else if (contentType.contains('image/png'))
+              ext = '.png';
+            else if (contentType.contains('image/jpeg'))
+              ext = '.jpg';
+            else if (contentType.contains('image/gif'))
+              ext = '.gif';
+            else
+              ext = '.bin'; // storage blob
+          } else {
+            ext = '.jpg'; // Fallback
+          }
+        }
+
         final filename = "secure_$timestamp$ext.enc";
 
         final file = File('${lockerDir.path}/$filename');
@@ -268,7 +371,7 @@ class _SecureBrowserState extends State<SecureBrowser> {
 
         Get.snackbar(
           "ENCRYPTED",
-          "File moved to secure vault.",
+          "Media secured in vault.",
           colorText: Colors.black,
           backgroundColor: Colors.cyanAccent,
           icon: const Icon(Icons.check_circle, color: Colors.black),
@@ -384,9 +487,41 @@ class _SecureBrowserState extends State<SecureBrowser> {
                   colorText: Colors.cyanAccent,
                   backgroundColor: Colors.black54,
                 );
+              } else if (value == 'adblock') {
+                setState(() {
+                  _isAdBlockEnabled = !_isAdBlockEnabled;
+                });
+                _controller.reload();
+                Get.snackbar(
+                  "Shield",
+                  _isAdBlockEnabled ? "AdBlock ENABLED" : "AdBlock DISABLED",
+                  colorText: _isAdBlockEnabled
+                      ? Colors.greenAccent
+                      : Colors.redAccent,
+                  backgroundColor: Colors.black54,
+                );
               }
             },
             itemBuilder: (context) => [
+              PopupMenuItem(
+                value: 'adblock',
+                child: Row(
+                  children: [
+                    Icon(
+                      _isAdBlockEnabled ? Icons.gpp_good : Icons.gpp_bad,
+                      color: _isAdBlockEnabled
+                          ? Colors.greenAccent
+                          : Colors.redAccent,
+                      size: 20,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      _isAdBlockEnabled ? "AdBlock On" : "AdBlock Off",
+                      style: const TextStyle(color: Colors.white),
+                    ),
+                  ],
+                ),
+              ),
               const PopupMenuItem(
                 value: 'clear',
                 child: Row(

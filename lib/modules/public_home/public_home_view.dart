@@ -131,7 +131,8 @@ class PublicHomeView extends GetView<PublicHomeController> {
             onPressed: () {},
           ),
         ),
-        onSubmitted: controller.onSearch,
+        onSubmitted: (value) => controller.onSearch(value, true),
+        onChanged: (value) => controller.onSearch(value, false),
       ),
     );
   }
