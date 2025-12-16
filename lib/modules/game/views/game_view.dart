@@ -48,7 +48,7 @@ class GameView extends StatelessWidget {
                     (controller.currentQuestionIndex.value + 1) /
                     controller.questions.length,
                 color: _getAccentColor(ageGroup),
-                backgroundColor: Colors.grey.withOpacity(0.2),
+                backgroundColor: Colors.grey.withValues(alpha: 0.2),
               ),
               const SizedBox(height: 20),
 
@@ -141,7 +141,7 @@ class GameView extends StatelessWidget {
             controller
                 .questions[controller.currentQuestionIndex.value]
                 .correctAnswer) {
-          btnColor = Colors.green.withOpacity(0.8);
+          btnColor = Colors.green.withValues(alpha: 0.8);
         }
       } else if (isSelected) {
         btnColor = _getAccentColor(age);
@@ -164,7 +164,7 @@ class GameView extends StatelessWidget {
               ),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.1),
+                  color: Colors.black.withValues(alpha: 0.1),
                   blurRadius: 5,
                   offset: const Offset(0, 4),
                 ),

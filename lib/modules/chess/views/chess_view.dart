@@ -73,7 +73,7 @@ class ChessView extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.5),
+                        color: Colors.black.withValues(alpha: 0.5),
                         blurRadius: 10,
                         offset: const Offset(0, 5),
                       ),
@@ -144,8 +144,8 @@ class ChessView extends StatelessWidget {
     // Colors
     final Color colorLight = const Color(0xFFEEEED2);
     final Color colorDark = const Color(0xFF769656);
-    final Color colorHighlight = Colors.yellow.withOpacity(0.5);
-    final Color colorMove = Colors.blue.withOpacity(0.5);
+    final Color colorHighlight = Colors.yellow.withValues(alpha: 0.5);
+    final Color colorMove = Colors.blue.withValues(alpha: 0.5);
 
     return Obx(() {
       bool isSelected = controller.selectedSquare.value == index;
@@ -268,7 +268,7 @@ class ChessView extends StatelessWidget {
           Shadow(
             offset: const Offset(0, 2),
             blurRadius: 4,
-            color: Colors.black.withOpacity(0.3),
+            color: Colors.black.withValues(alpha: 0.3),
           ),
         ],
       ),

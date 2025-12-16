@@ -2,12 +2,12 @@ import 'dart:math';
 
 class SudokuGenerator {
   static const int N = 9;
-  static const int SRN = 3; // Square Root of N
+  static const int srn = 3; // Square Root of N
   List<List<int>> mat = List.generate(N, (_) => List.filled(N, 0));
 
   void fillSolved() {
     _fillDiagonal();
-    _fillRemaining(0, SRN);
+    _fillRemaining(0, srn);
   }
 
   void removeDigits(int k) {
@@ -15,14 +15,14 @@ class SudokuGenerator {
   }
 
   void _fillDiagonal() {
-    for (int i = 0; i < N; i = i + SRN) {
+    for (int i = 0; i < N; i = i + srn) {
       _fillBox(i, i);
     }
   }
 
   bool _unUsedInBox(int rowStart, int colStart, int num) {
-    for (int i = 0; i < SRN; i++) {
-      for (int j = 0; j < SRN; j++) {
+    for (int i = 0; i < srn; i++) {
+      for (int j = 0; j < srn; j++) {
         if (mat[rowStart + i][colStart + j] == num) return false;
       }
     }
@@ -31,8 +31,8 @@ class SudokuGenerator {
 
   void _fillBox(int row, int col) {
     int num;
-    for (int i = 0; i < SRN; i++) {
-      for (int j = 0; j < SRN; j++) {
+    for (int i = 0; i < srn; i++) {
+      for (int j = 0; j < srn; j++) {
         do {
           num = _randomGenerator(N);
         } while (!_unUsedInBox(row, col, num));
@@ -48,7 +48,7 @@ class SudokuGenerator {
   bool _checkIfSafe(int i, int j, int num) {
     return (_unUsedInRow(i, num) &&
         _unUsedInCol(j, num) &&
-        _unUsedInBox(i - i % SRN, j - j % SRN, num));
+        _unUsedInBox(i - i % srn, j - j % srn, num));
   }
 
   bool _unUsedInRow(int i, int num) {
@@ -72,12 +72,12 @@ class SudokuGenerator {
     }
     if (i >= N && j >= N) return true;
 
-    if (i < SRN) {
-      if (j < SRN) j = SRN;
-    } else if (i < N - SRN) {
-      if (j == (i ~/ SRN) * SRN) j = j + SRN;
+    if (i < srn) {
+      if (j < srn) j = srn;
+    } else if (i < N - srn) {
+      if (j == (i ~/ srn) * srn) j = j + srn;
     } else {
-      if (j == N - SRN) {
+      if (j == N - srn) {
         i = i + 1;
         j = 0;
         if (i >= N) return true;

@@ -109,7 +109,7 @@ class SudokuView extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
             color: isSelected
-                ? AppColors.primary.withOpacity(0.3)
+                ? AppColors.primary.withValues(alpha: 0.3)
                 : const Color(0xFF1E1E1E),
             border: Border(
               right: (col % 3 == 2 && col != 8) ? thick : thin,
