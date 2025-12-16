@@ -1,0 +1,710 @@
+{
+  "meta": {
+    "subject": "science",
+    "ageGroup": "kids",
+    "difficulty": "medium",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": "KM-001",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-002",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-003",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-004",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-005",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-006",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-007",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-008",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-009",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-010",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-011",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-012",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-013",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-014",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-015",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-016",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-017",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-018",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-019",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-020",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-021",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-022",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-023",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-024",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-025",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-026",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-027",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-028",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-029",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-030",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-031",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-032",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-033",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-034",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-035",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-036",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-037",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-038",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-039",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-040",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-041",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-042",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-043",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-044",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-045",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-046",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-047",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-048",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-049",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    },
+    {
+      "id": "KM-050",
+      "topic": "Biology",
+      "difficulty": 2,
+      "question": "Which part of the plant makes food?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "Leaf",
+      "explanation": "Leaves perform photosynthesis."
+    }
+  ]
+}

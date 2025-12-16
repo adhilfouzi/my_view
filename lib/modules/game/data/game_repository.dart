@@ -130,10 +130,11 @@ class GameRepository {
     ),
   ];
 
-  static bool _isLoaded = false;
+  static bool _isLoadedMath = false;
+  static bool _isLoadedScience = false;
 
   static Future<void> loadMathQuestions() async {
-    if (_isLoaded) return;
+    if (_isLoadedMath) return;
 
     try {
       final files = {
@@ -143,46 +144,78 @@ class GameRepository {
       };
 
       for (var entry in files.entries) {
-        final String jsonString = await rootBundle.loadString(entry.key);
-        final Map<String, dynamic> data = json.decode(jsonString);
-        final List<dynamic> questions = data['questions'];
+        await _loadAndParse(entry.key, entry.value, Subject.math);
+      }
+      _isLoadedMath = true;
+    } catch (e) {
+      print("Error loading math questions: $e");
+    }
+  }
 
-        for (var q in questions) {
+  static Future<void> loadScienceQuestions() async {
+    if (_isLoadedScience) return;
+
+    try {
+      final files = {
+        'assets/jsons/science/science_kids_easy.json': AgeGroup.kids,
+        'assets/jsons/science/science_teens_easy.json': AgeGroup.teens,
+        'assets/jsons/science/science_students_medium.json': AgeGroup.students,
+        'assets/jsons/science/science_adults_hard.json': AgeGroup.adults,
+      };
+
+      for (var entry in files.entries) {
+        await _loadAndParse(entry.key, entry.value, Subject.science);
+      }
+      _isLoadedScience = true;
+    } catch (e) {
+      print("Error loading science questions: $e");
+    }
+  }
+
+  static Future<void> _loadAndParse(
+    String path,
+    AgeGroup age,
+    Subject subject,
+  ) async {
+    try {
+      final String jsonString = await rootBundle.loadString(path);
+      final Map<String, dynamic> data = json.decode(jsonString);
+      final List<dynamic> questions = data['questions'];
+
+      for (var q in questions) {
+        _allQuestions.add(
+          GameQuestion(
+            id: q['id'],
+            question: q['question'],
+            options: List<String>.from(q['options']),
+            correctAnswer: q['answer'],
+            explanation: q['explanation'],
+            ageGroup: age,
+            subject: subject,
+            type: GameType.mcq,
+            difficulty: q['difficulty'] ?? 1,
+          ),
+        );
+
+        // Map hard to other groups if needed
+        if (age == AgeGroup.adults && subject == Subject.math) {
           _allQuestions.add(
             GameQuestion(
-              id: q['id'],
+              id: "${q['id']}_s",
               question: q['question'],
               options: List<String>.from(q['options']),
               correctAnswer: q['answer'],
               explanation: q['explanation'],
-              ageGroup: entry.value,
+              ageGroup: AgeGroup.students,
               subject: Subject.math,
               type: GameType.mcq,
               difficulty: q['difficulty'] ?? 1,
             ),
           );
-
-          // Map hard to Students as well if needed, or leave gaps
-          if (entry.value == AgeGroup.adults) {
-            _allQuestions.add(
-              GameQuestion(
-                id: "${q['id']}_s",
-                question: q['question'],
-                options: List<String>.from(q['options']),
-                correctAnswer: q['answer'],
-                explanation: q['explanation'],
-                ageGroup: AgeGroup.students,
-                subject: Subject.math,
-                type: GameType.mcq,
-                difficulty: q['difficulty'] ?? 1,
-              ),
-            );
-          }
         }
       }
-      _isLoaded = true;
     } catch (e) {
-      print("Error loading math questions: $e");
+      print("Error parsing $path: $e");
     }
   }
 
@@ -190,9 +223,11 @@ class GameRepository {
     required AgeGroup age,
     required Subject subject,
   }) async {
-    // Ensure loaded if asking for Math
-    if (subject == Subject.math && !_isLoaded) {
+    if (subject == Subject.math && !_isLoadedMath) {
       await loadMathQuestions();
+    }
+    if (subject == Subject.science && !_isLoadedScience) {
+      await loadScienceQuestions();
     }
 
     return _allQuestions

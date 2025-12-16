@@ -1,0 +1,1410 @@
+{
+  "meta": {
+    "subject": "science",
+    "ageGroup": "students",
+    "difficulty": "medium",
+    "totalQuestions": 100
+  },
+  "questions": [
+    {
+      "id": "SM-001",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=7?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "56",
+        "Leaf"
+      ],
+      "answer": "56",
+      "explanation": "Force = 8 \u00d7 7 = 56"
+    },
+    {
+      "id": "SM-002",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=8?",
+      "options": [
+        "Leaf",
+        "Oxygen",
+        "56",
+        "Hydrogen"
+      ],
+      "answer": "56",
+      "explanation": "Force = 7 \u00d7 8 = 56"
+    },
+    {
+      "id": "SM-003",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=1 and acceleration=10?",
+      "options": [
+        "Root",
+        "10",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "10",
+      "explanation": "Force = 1 \u00d7 10 = 10"
+    },
+    {
+      "id": "SM-004",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=2?",
+      "options": [
+        "6",
+        "Leaf",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "6",
+      "explanation": "Force = 3 \u00d7 2 = 6"
+    },
+    {
+      "id": "SM-005",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=1?",
+      "options": [
+        "6",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "6",
+      "explanation": "Force = 6 \u00d7 1 = 6"
+    },
+    {
+      "id": "SM-006",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=8?",
+      "options": [
+        "16",
+        "Oxygen",
+        "Root",
+        "Leaf"
+      ],
+      "answer": "16",
+      "explanation": "Force = 2 \u00d7 8 = 16"
+    },
+    {
+      "id": "SM-007",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=6?",
+      "options": [
+        "18",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "18",
+      "explanation": "Force = 3 \u00d7 6 = 18"
+    },
+    {
+      "id": "SM-008",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=1?",
+      "options": [
+        "Root",
+        "10",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "10",
+      "explanation": "Force = 10 \u00d7 1 = 10"
+    },
+    {
+      "id": "SM-009",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=8?",
+      "options": [
+        "Oxygen",
+        "40",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "40",
+      "explanation": "Force = 5 \u00d7 8 = 40"
+    },
+    {
+      "id": "SM-010",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=7?",
+      "options": [
+        "49",
+        "Leaf",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "49",
+      "explanation": "Force = 7 \u00d7 7 = 49"
+    },
+    {
+      "id": "SM-011",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=2?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "10",
+        "Leaf"
+      ],
+      "answer": "10",
+      "explanation": "Force = 5 \u00d7 2 = 10"
+    },
+    {
+      "id": "SM-012",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=8?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "80",
+        "Leaf"
+      ],
+      "answer": "80",
+      "explanation": "Force = 10 \u00d7 8 = 80"
+    },
+    {
+      "id": "SM-013",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=6?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Leaf",
+        "24"
+      ],
+      "answer": "24",
+      "explanation": "Force = 4 \u00d7 6 = 24"
+    },
+    {
+      "id": "SM-014",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=5?",
+      "options": [
+        "20",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "20",
+      "explanation": "Force = 4 \u00d7 5 = 20"
+    },
+    {
+      "id": "SM-015",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=2?",
+      "options": [
+        "12",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "12",
+      "explanation": "Force = 6 \u00d7 2 = 12"
+    },
+    {
+      "id": "SM-016",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=5?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "Leaf",
+        "25"
+      ],
+      "answer": "25",
+      "explanation": "Force = 5 \u00d7 5 = 25"
+    },
+    {
+      "id": "SM-017",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=10?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "80",
+        "Leaf"
+      ],
+      "answer": "80",
+      "explanation": "Force = 8 \u00d7 10 = 80"
+    },
+    {
+      "id": "SM-018",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=10?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "70",
+        "Leaf"
+      ],
+      "answer": "70",
+      "explanation": "Force = 7 \u00d7 10 = 70"
+    },
+    {
+      "id": "SM-019",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=9 and acceleration=8?",
+      "options": [
+        "72",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "72",
+      "explanation": "Force = 9 \u00d7 8 = 72"
+    },
+    {
+      "id": "SM-020",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=6?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "30",
+        "Hydrogen"
+      ],
+      "answer": "30",
+      "explanation": "Force = 5 \u00d7 6 = 30"
+    },
+    {
+      "id": "SM-021",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=7?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "70",
+        "Leaf"
+      ],
+      "answer": "70",
+      "explanation": "Force = 10 \u00d7 7 = 70"
+    },
+    {
+      "id": "SM-022",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=1?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "Leaf",
+        "2"
+      ],
+      "answer": "2",
+      "explanation": "Force = 2 \u00d7 1 = 2"
+    },
+    {
+      "id": "SM-023",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=7?",
+      "options": [
+        "Root",
+        "35",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "35",
+      "explanation": "Force = 5 \u00d7 7 = 35"
+    },
+    {
+      "id": "SM-024",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=10?",
+      "options": [
+        "Leaf",
+        "Oxygen",
+        "100",
+        "Hydrogen"
+      ],
+      "answer": "100",
+      "explanation": "Force = 10 \u00d7 10 = 100"
+    },
+    {
+      "id": "SM-025",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=6?",
+      "options": [
+        "18",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "18",
+      "explanation": "Force = 3 \u00d7 6 = 18"
+    },
+    {
+      "id": "SM-026",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=5?",
+      "options": [
+        "Oxygen",
+        "10",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "10",
+      "explanation": "Force = 2 \u00d7 5 = 10"
+    },
+    {
+      "id": "SM-027",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=10?",
+      "options": [
+        "Oxygen",
+        "40",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "40",
+      "explanation": "Force = 4 \u00d7 10 = 40"
+    },
+    {
+      "id": "SM-028",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=6?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "Leaf",
+        "60"
+      ],
+      "answer": "60",
+      "explanation": "Force = 10 \u00d7 6 = 60"
+    },
+    {
+      "id": "SM-029",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=6?",
+      "options": [
+        "Root",
+        "12",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "12",
+      "explanation": "Force = 2 \u00d7 6 = 12"
+    },
+    {
+      "id": "SM-030",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=1?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "5",
+        "Leaf"
+      ],
+      "answer": "5",
+      "explanation": "Force = 5 \u00d7 1 = 5"
+    },
+    {
+      "id": "SM-031",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=8?",
+      "options": [
+        "48",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "48",
+      "explanation": "Force = 6 \u00d7 8 = 48"
+    },
+    {
+      "id": "SM-032",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=2?",
+      "options": [
+        "Leaf",
+        "Hydrogen",
+        "Root",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Force = 7 \u00d7 2 = 14"
+    },
+    {
+      "id": "SM-033",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=1?",
+      "options": [
+        "4",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "4",
+      "explanation": "Force = 4 \u00d7 1 = 4"
+    },
+    {
+      "id": "SM-034",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=9?",
+      "options": [
+        "72",
+        "Root",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "72",
+      "explanation": "Force = 8 \u00d7 9 = 72"
+    },
+    {
+      "id": "SM-035",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=9 and acceleration=9?",
+      "options": [
+        "Root",
+        "81",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "81",
+      "explanation": "Force = 9 \u00d7 9 = 81"
+    },
+    {
+      "id": "SM-036",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=5?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "30",
+        "Hydrogen"
+      ],
+      "answer": "30",
+      "explanation": "Force = 6 \u00d7 5 = 30"
+    },
+    {
+      "id": "SM-037",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=9 and acceleration=10?",
+      "options": [
+        "Root",
+        "90",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "90",
+      "explanation": "Force = 9 \u00d7 10 = 90"
+    },
+    {
+      "id": "SM-038",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=4?",
+      "options": [
+        "8",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "8",
+      "explanation": "Force = 2 \u00d7 4 = 8"
+    },
+    {
+      "id": "SM-039",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=1 and acceleration=1?",
+      "options": [
+        "1",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "1",
+      "explanation": "Force = 1 \u00d7 1 = 1"
+    },
+    {
+      "id": "SM-040",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=9?",
+      "options": [
+        "Root",
+        "45",
+        "Oxygen",
+        "Leaf"
+      ],
+      "answer": "45",
+      "explanation": "Force = 5 \u00d7 9 = 45"
+    },
+    {
+      "id": "SM-041",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=6?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "36",
+        "Leaf"
+      ],
+      "answer": "36",
+      "explanation": "Force = 6 \u00d7 6 = 36"
+    },
+    {
+      "id": "SM-042",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=5?",
+      "options": [
+        "Root",
+        "15",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "15",
+      "explanation": "Force = 3 \u00d7 5 = 15"
+    },
+    {
+      "id": "SM-043",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=1 and acceleration=5?",
+      "options": [
+        "Leaf",
+        "Oxygen",
+        "5",
+        "Hydrogen"
+      ],
+      "answer": "5",
+      "explanation": "Force = 1 \u00d7 5 = 5"
+    },
+    {
+      "id": "SM-044",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=5?",
+      "options": [
+        "15",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "15",
+      "explanation": "Force = 3 \u00d7 5 = 15"
+    },
+    {
+      "id": "SM-045",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=6?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "36",
+        "Leaf"
+      ],
+      "answer": "36",
+      "explanation": "Force = 6 \u00d7 6 = 36"
+    },
+    {
+      "id": "SM-046",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=10?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Leaf",
+        "60"
+      ],
+      "answer": "60",
+      "explanation": "Force = 6 \u00d7 10 = 60"
+    },
+    {
+      "id": "SM-047",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=9 and acceleration=6?",
+      "options": [
+        "54",
+        "Oxygen",
+        "Root",
+        "Leaf"
+      ],
+      "answer": "54",
+      "explanation": "Force = 9 \u00d7 6 = 54"
+    },
+    {
+      "id": "SM-048",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=2?",
+      "options": [
+        "8",
+        "Leaf",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "8",
+      "explanation": "Force = 4 \u00d7 2 = 8"
+    },
+    {
+      "id": "SM-049",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=4?",
+      "options": [
+        "Root",
+        "12",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "12",
+      "explanation": "Force = 3 \u00d7 4 = 12"
+    },
+    {
+      "id": "SM-050",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=6?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Root",
+        "24"
+      ],
+      "answer": "24",
+      "explanation": "Force = 4 \u00d7 6 = 24"
+    },
+    {
+      "id": "SM-051",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=4?",
+      "options": [
+        "Root",
+        "12",
+        "Oxygen",
+        "Leaf"
+      ],
+      "answer": "12",
+      "explanation": "Force = 3 \u00d7 4 = 12"
+    },
+    {
+      "id": "SM-052",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=6?",
+      "options": [
+        "48",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "48",
+      "explanation": "Force = 8 \u00d7 6 = 48"
+    },
+    {
+      "id": "SM-053",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=10?",
+      "options": [
+        "20",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "20",
+      "explanation": "Force = 2 \u00d7 10 = 20"
+    },
+    {
+      "id": "SM-054",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=10?",
+      "options": [
+        "Leaf",
+        "80",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "80",
+      "explanation": "Force = 8 \u00d7 10 = 80"
+    },
+    {
+      "id": "SM-055",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=9?",
+      "options": [
+        "Leaf",
+        "Oxygen",
+        "36",
+        "Hydrogen"
+      ],
+      "answer": "36",
+      "explanation": "Force = 4 \u00d7 9 = 36"
+    },
+    {
+      "id": "SM-056",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=1 and acceleration=9?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "Leaf",
+        "9"
+      ],
+      "answer": "9",
+      "explanation": "Force = 1 \u00d7 9 = 9"
+    },
+    {
+      "id": "SM-057",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=7?",
+      "options": [
+        "Hydrogen",
+        "42",
+        "Root",
+        "Leaf"
+      ],
+      "answer": "42",
+      "explanation": "Force = 6 \u00d7 7 = 42"
+    },
+    {
+      "id": "SM-058",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=8?",
+      "options": [
+        "Root",
+        "80",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "80",
+      "explanation": "Force = 10 \u00d7 8 = 80"
+    },
+    {
+      "id": "SM-059",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=7?",
+      "options": [
+        "Root",
+        "Leaf",
+        "70",
+        "Hydrogen"
+      ],
+      "answer": "70",
+      "explanation": "Force = 10 \u00d7 7 = 70"
+    },
+    {
+      "id": "SM-060",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=7?",
+      "options": [
+        "49",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "49",
+      "explanation": "Force = 7 \u00d7 7 = 49"
+    },
+    {
+      "id": "SM-061",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=9?",
+      "options": [
+        "Oxygen",
+        "63",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "63",
+      "explanation": "Force = 7 \u00d7 9 = 63"
+    },
+    {
+      "id": "SM-062",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=5?",
+      "options": [
+        "Oxygen",
+        "35",
+        "Root",
+        "Leaf"
+      ],
+      "answer": "35",
+      "explanation": "Force = 7 \u00d7 5 = 35"
+    },
+    {
+      "id": "SM-063",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=10?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "100",
+        "Hydrogen"
+      ],
+      "answer": "100",
+      "explanation": "Force = 10 \u00d7 10 = 100"
+    },
+    {
+      "id": "SM-064",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=9?",
+      "options": [
+        "90",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "90",
+      "explanation": "Force = 10 \u00d7 9 = 90"
+    },
+    {
+      "id": "SM-065",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=9?",
+      "options": [
+        "54",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "54",
+      "explanation": "Force = 6 \u00d7 9 = 54"
+    },
+    {
+      "id": "SM-066",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=3?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Root",
+        "9"
+      ],
+      "answer": "9",
+      "explanation": "Force = 3 \u00d7 3 = 9"
+    },
+    {
+      "id": "SM-067",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=10?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "70",
+        "Leaf"
+      ],
+      "answer": "70",
+      "explanation": "Force = 7 \u00d7 10 = 70"
+    },
+    {
+      "id": "SM-068",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=1?",
+      "options": [
+        "Leaf",
+        "7",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "7",
+      "explanation": "Force = 7 \u00d7 1 = 7"
+    },
+    {
+      "id": "SM-069",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=4?",
+      "options": [
+        "Oxygen",
+        "40",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "40",
+      "explanation": "Force = 10 \u00d7 4 = 40"
+    },
+    {
+      "id": "SM-070",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=6?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Leaf",
+        "24"
+      ],
+      "answer": "24",
+      "explanation": "Force = 4 \u00d7 6 = 24"
+    },
+    {
+      "id": "SM-071",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=8?",
+      "options": [
+        "Oxygen",
+        "80",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "80",
+      "explanation": "Force = 10 \u00d7 8 = 80"
+    },
+    {
+      "id": "SM-072",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=9?",
+      "options": [
+        "54",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "54",
+      "explanation": "Force = 6 \u00d7 9 = 54"
+    },
+    {
+      "id": "SM-073",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=8?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "Leaf",
+        "24"
+      ],
+      "answer": "24",
+      "explanation": "Force = 3 \u00d7 8 = 24"
+    },
+    {
+      "id": "SM-074",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=10?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "80",
+        "Leaf"
+      ],
+      "answer": "80",
+      "explanation": "Force = 8 \u00d7 10 = 80"
+    },
+    {
+      "id": "SM-075",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=4?",
+      "options": [
+        "28",
+        "Root",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "28",
+      "explanation": "Force = 7 \u00d7 4 = 28"
+    },
+    {
+      "id": "SM-076",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=8?",
+      "options": [
+        "48",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "48",
+      "explanation": "Force = 6 \u00d7 8 = 48"
+    },
+    {
+      "id": "SM-077",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=7?",
+      "options": [
+        "Leaf",
+        "42",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "42",
+      "explanation": "Force = 6 \u00d7 7 = 42"
+    },
+    {
+      "id": "SM-078",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=1?",
+      "options": [
+        "Hydrogen",
+        "7",
+        "Root",
+        "Leaf"
+      ],
+      "answer": "7",
+      "explanation": "Force = 7 \u00d7 1 = 7"
+    },
+    {
+      "id": "SM-079",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=1?",
+      "options": [
+        "Root",
+        "Hydrogen",
+        "Leaf",
+        "2"
+      ],
+      "answer": "2",
+      "explanation": "Force = 2 \u00d7 1 = 2"
+    },
+    {
+      "id": "SM-080",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=9 and acceleration=7?",
+      "options": [
+        "Oxygen",
+        "63",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "63",
+      "explanation": "Force = 9 \u00d7 7 = 63"
+    },
+    {
+      "id": "SM-081",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=8?",
+      "options": [
+        "Root",
+        "80",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "80",
+      "explanation": "Force = 10 \u00d7 8 = 80"
+    },
+    {
+      "id": "SM-082",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=9 and acceleration=8?",
+      "options": [
+        "72",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "72",
+      "explanation": "Force = 9 \u00d7 8 = 72"
+    },
+    {
+      "id": "SM-083",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=4?",
+      "options": [
+        "28",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "28",
+      "explanation": "Force = 7 \u00d7 4 = 28"
+    },
+    {
+      "id": "SM-084",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=9 and acceleration=4?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "36",
+        "Hydrogen"
+      ],
+      "answer": "36",
+      "explanation": "Force = 9 \u00d7 4 = 36"
+    },
+    {
+      "id": "SM-085",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=4 and acceleration=8?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Leaf",
+        "32"
+      ],
+      "answer": "32",
+      "explanation": "Force = 4 \u00d7 8 = 32"
+    },
+    {
+      "id": "SM-086",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=1 and acceleration=8?",
+      "options": [
+        "8",
+        "Oxygen",
+        "Root",
+        "Leaf"
+      ],
+      "answer": "8",
+      "explanation": "Force = 1 \u00d7 8 = 8"
+    },
+    {
+      "id": "SM-087",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=6?",
+      "options": [
+        "18",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "18",
+      "explanation": "Force = 3 \u00d7 6 = 18"
+    },
+    {
+      "id": "SM-088",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=3 and acceleration=6?",
+      "options": [
+        "18",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "18",
+      "explanation": "Force = 3 \u00d7 6 = 18"
+    },
+    {
+      "id": "SM-089",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=9?",
+      "options": [
+        "Root",
+        "90",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "90",
+      "explanation": "Force = 10 \u00d7 9 = 90"
+    },
+    {
+      "id": "SM-090",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=2?",
+      "options": [
+        "16",
+        "Root",
+        "Oxygen",
+        "Leaf"
+      ],
+      "answer": "16",
+      "explanation": "Force = 8 \u00d7 2 = 16"
+    },
+    {
+      "id": "SM-091",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=8?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "56",
+        "Hydrogen"
+      ],
+      "answer": "56",
+      "explanation": "Force = 7 \u00d7 8 = 56"
+    },
+    {
+      "id": "SM-092",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=8?",
+      "options": [
+        "16",
+        "Root",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "16",
+      "explanation": "Force = 2 \u00d7 8 = 16"
+    },
+    {
+      "id": "SM-093",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=10 and acceleration=1?",
+      "options": [
+        "Oxygen",
+        "10",
+        "Root",
+        "Leaf"
+      ],
+      "answer": "10",
+      "explanation": "Force = 10 \u00d7 1 = 10"
+    },
+    {
+      "id": "SM-094",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=5 and acceleration=4?",
+      "options": [
+        "Root",
+        "20",
+        "Oxygen",
+        "Leaf"
+      ],
+      "answer": "20",
+      "explanation": "Force = 5 \u00d7 4 = 20"
+    },
+    {
+      "id": "SM-095",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=2 and acceleration=5?",
+      "options": [
+        "Root",
+        "Oxygen",
+        "10",
+        "Leaf"
+      ],
+      "answer": "10",
+      "explanation": "Force = 2 \u00d7 5 = 10"
+    },
+    {
+      "id": "SM-096",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=9?",
+      "options": [
+        "72",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "72",
+      "explanation": "Force = 8 \u00d7 9 = 72"
+    },
+    {
+      "id": "SM-097",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=1?",
+      "options": [
+        "6",
+        "Leaf",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "6",
+      "explanation": "Force = 6 \u00d7 1 = 6"
+    },
+    {
+      "id": "SM-098",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=7 and acceleration=2?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Leaf",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Force = 7 \u00d7 2 = 14"
+    },
+    {
+      "id": "SM-099",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=6 and acceleration=2?",
+      "options": [
+        "12",
+        "Oxygen",
+        "Leaf",
+        "Hydrogen"
+      ],
+      "answer": "12",
+      "explanation": "Force = 6 \u00d7 2 = 12"
+    },
+    {
+      "id": "SM-100",
+      "topic": "Physics",
+      "difficulty": 2,
+      "question": "If force = mass \u00d7 acceleration, what is force when mass=8 and acceleration=9?",
+      "options": [
+        "72",
+        "Oxygen",
+        "Root",
+        "Hydrogen"
+      ],
+      "answer": "72",
+      "explanation": "Force = 8 \u00d7 9 = 72"
+    }
+  ]
+}
