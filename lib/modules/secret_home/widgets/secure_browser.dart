@@ -1,10 +1,15 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:http/http.dart' as http;
+import 'package:path_provider/path_provider.dart';
+import 'package:path/path.dart' as p;
+import '../../../../services/encryption_service.dart';
 
 class SecureBrowser extends StatefulWidget {
   final String initialUrl;
-  const SecureBrowser({super.key, this.initialUrl = 'https://duckduckgo.com'});
+  const SecureBrowser({super.key, this.initialUrl = 'https://google.com'});
 
   @override
   State<SecureBrowser> createState() => _SecureBrowserState();
@@ -14,19 +19,35 @@ class _SecureBrowserState extends State<SecureBrowser> {
   late final WebViewController _controller;
   final TextEditingController _urlController = TextEditingController();
   bool isLoading = true;
+  bool _isPromptOpen = false; // Lock for dialog
 
   @override
   void initState() {
     super.initState();
     _urlController.text = widget.initialUrl;
+
+    // Javascript to detect long press on images
+    final String jsCode = """
+      document.body.addEventListener('contextmenu', function(e) {
+        if (e.target.tagName === 'IMG') {
+          e.preventDefault();
+          SaveMediaChannel.postMessage(e.target.src);
+        }
+      });
+    """;
+
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setBackgroundColor(const Color(0xFF111111))
+      ..addJavaScriptChannel(
+        'SaveMediaChannel',
+        onMessageReceived: (JavaScriptMessage message) {
+          _promptToSaveMedia(message.message);
+        },
+      )
       ..setNavigationDelegate(
         NavigationDelegate(
-          onProgress: (int progress) {
-            // Update loading bar logic if needed
-          },
+          onProgress: (int progress) {},
           onPageStarted: (String url) {
             if (mounted) {
               setState(() {
@@ -36,7 +57,10 @@ class _SecureBrowserState extends State<SecureBrowser> {
             }
           },
           onPageFinished: (String url) {
-            if (mounted) setState(() => isLoading = false);
+            if (mounted) {
+              setState(() => isLoading = false);
+              _controller.runJavaScript(jsCode);
+            }
           },
           onWebResourceError: (WebResourceError error) {},
           onNavigationRequest: (NavigationRequest request) {
@@ -55,18 +79,225 @@ class _SecureBrowserState extends State<SecureBrowser> {
     super.dispose();
   }
 
+  Future<void> _promptToSaveMedia(String url) async {
+    // 1. Lock: Prevent multiple identical dialogs
+    if (_isPromptOpen) return;
+    _isPromptOpen = true;
+
+    // 2. Safety: Close any rogue dialogs from previous interactions
+    if (Get.isDialogOpen == true) {
+      Get.back();
+    }
+
+    String dispUrl = url;
+    if (dispUrl.length > 50) dispUrl = "${dispUrl.substring(0, 47)}...";
+
+    // 3. Open Dialog
+    final result = await Get.dialog<bool>(
+      Dialog(
+        backgroundColor: Colors.transparent,
+        insetPadding: const EdgeInsets.all(20),
+        child: Container(
+          decoration: BoxDecoration(
+            color: const Color(0xFF1E1E1E).withOpacity(0.95),
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(
+              color: Colors.cyanAccent.withOpacity(0.5),
+              width: 1,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.cyanAccent.withOpacity(0.2),
+                blurRadius: 20,
+                spreadRadius: 2,
+              ),
+            ],
+          ),
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.cyanAccent.withOpacity(0.1),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(
+                  Icons.phonelink_lock,
+                  size: 40,
+                  color: Colors.cyanAccent,
+                ),
+              ),
+              const SizedBox(height: 20),
+              const Text(
+                "SAVE CAPTURE",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'Courier',
+                  fontWeight: FontWeight.w900,
+                  fontSize: 20,
+                  letterSpacing: 2,
+                ),
+              ),
+              const SizedBox(height: 12),
+              Text(
+                "Do you want to save this resource?",
+                style: TextStyle(color: Colors.grey[400], fontSize: 14),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                  color: Colors.black54,
+                  borderRadius: BorderRadius.circular(4),
+                ),
+                child: Text(
+                  dispUrl,
+                  style: const TextStyle(
+                    color: Colors.grey,
+                    fontSize: 10,
+                    fontFamily: 'Courier',
+                  ),
+                  textAlign: TextAlign.center,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+              const SizedBox(height: 24),
+              Row(
+                children: [
+                  Expanded(
+                    child: TextButton(
+                      style: TextButton.styleFrom(
+                        foregroundColor: Colors.redAccent,
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                      ),
+                      onPressed: () => Get.back(result: false),
+                      child: const Text(
+                        "Cancel",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 1,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.cyanAccent,
+                        foregroundColor: Colors.black,
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        elevation: 0,
+                        shadowColor: Colors.cyanAccent.withOpacity(0.4),
+                      ),
+                      onPressed: () => Get.back(result: true),
+                      child: const Text(
+                        "Save",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 1,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+      barrierColor: Colors.black.withOpacity(0.9),
+      transitionDuration: const Duration(milliseconds: 300),
+      transitionCurve: Curves.easeOutBack,
+    );
+
+    // 4. Release Lock
+    _isPromptOpen = false;
+
+    // 5. Process Result
+    if (result == true) {
+      if (!mounted) return;
+      await Future.delayed(const Duration(milliseconds: 200));
+      _downloadAndEncrypt(url);
+    }
+  }
+
+  Future<void> _downloadAndEncrypt(String url) async {
+    try {
+      Get.dialog(
+        const Center(
+          child: CircularProgressIndicator(color: Colors.cyanAccent),
+        ),
+        barrierDismissible: false,
+      );
+
+      final response = await http.get(
+        Uri.parse(url),
+        headers: {
+          'User-Agent':
+              'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        },
+      );
+
+      Get.back(); // close loading
+
+      if (response.statusCode == 200) {
+        final bytes = response.bodyBytes;
+        final encryptedBytes = EncryptionService.to.encryptData(bytes);
+
+        final dir = await getApplicationDocumentsDirectory();
+        final lockerDir = Directory('${dir.path}/secret_files');
+        if (!await lockerDir.exists()) {
+          await lockerDir.create(recursive: true);
+        }
+
+        final timestamp = DateTime.now().millisecondsSinceEpoch;
+        String ext = p.extension(url).split('?').first;
+        if (ext.isEmpty || ext.length > 5) ext = '.jpg';
+        final filename = "secure_$timestamp$ext.enc";
+
+        final file = File('${lockerDir.path}/$filename');
+        await file.writeAsBytes(encryptedBytes);
+
+        Get.snackbar(
+          "ENCRYPTED",
+          "File moved to secure vault.",
+          colorText: Colors.black,
+          backgroundColor: Colors.cyanAccent,
+          icon: const Icon(Icons.check_circle, color: Colors.black),
+          duration: const Duration(seconds: 2),
+          snackPosition: SnackPosition.BOTTOM,
+          margin: const EdgeInsets.all(16),
+          borderRadius: 12,
+        );
+      } else {
+        throw Exception("Server returned ${response.statusCode}");
+      }
+    } catch (e) {
+      if (Get.isDialogOpen ?? false) Get.back();
+      Get.snackbar(
+        "ERROR",
+        "Failed to secure media: $e",
+        colorText: Colors.white,
+        backgroundColor: Colors.redAccent.withOpacity(0.8),
+      );
+    }
+  }
+
   void _loadUrlOrSearch(String input) {
     Uri? uri = Uri.tryParse(input);
     bool isUrl = uri != null && (uri.scheme == 'http' || uri.scheme == 'https');
-
     if (!isUrl) {
-      // Basic heuristic: if it has a dot and no spaces, maybe treat as URL?
-      // For now, simpler: if no scheme, search.
       if (input.contains('.') && !input.contains(' ')) {
-        // Try adding https
         _controller.loadRequest(Uri.parse('https://$input'));
       } else {
-        // Search
         _controller.loadRequest(
           Uri.parse('https://duckduckgo.com/?q=${Uri.encodeComponent(input)}'),
         );
@@ -91,9 +322,7 @@ class _SecureBrowserState extends State<SecureBrowser> {
             color: Colors.cyanAccent,
           ),
           onPressed: () async {
-            if (await _controller.canGoBack()) {
-              _controller.goBack();
-            }
+            if (await _controller.canGoBack()) _controller.goBack();
           },
         ),
         title: Container(
@@ -120,10 +349,7 @@ class _SecureBrowserState extends State<SecureBrowser> {
                 color: Colors.cyanAccent,
                 size: 16,
               ),
-              contentPadding: EdgeInsets.symmetric(
-                horizontal: 10,
-                vertical: 7,
-              ), // Vertically center text
+              contentPadding: EdgeInsets.symmetric(horizontal: 10, vertical: 7),
             ),
             keyboardType: TextInputType.url,
             textInputAction: TextInputAction.go,
@@ -138,9 +364,7 @@ class _SecureBrowserState extends State<SecureBrowser> {
               color: Colors.cyanAccent,
             ),
             onPressed: () async {
-              if (await _controller.canGoForward()) {
-                _controller.goForward();
-              }
+              if (await _controller.canGoForward()) _controller.goForward();
             },
           ),
           IconButton(
