@@ -1,0 +1,1410 @@
+{
+  "meta": {
+    "subject": "math",
+    "category": "logical_reasoning",
+    "difficulty": "hard",
+    "totalQuestions": 100
+  },
+  "questions": [
+    {
+      "id": "H-001",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 8, 14, 20, ?",
+      "options": [
+        "32",
+        "26",
+        "36",
+        "21"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-002",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "25",
+        "27",
+        "21",
+        "33"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-003",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "16",
+        "17",
+        "19",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-004",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 4, 7, 10, ?",
+      "options": [
+        "5",
+        "18",
+        "13",
+        "22"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-005",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 15, 21, 27, ?",
+      "options": [
+        "33",
+        "43",
+        "36",
+        "28"
+      ],
+      "answer": "33",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-006",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 14, 19, 24, ?",
+      "options": [
+        "24",
+        "25",
+        "29",
+        "23"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-007",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 15, 20, 25, ?",
+      "options": [
+        "40",
+        "24",
+        "30",
+        "22"
+      ],
+      "answer": "30",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-008",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 11, 17, 23, ?",
+      "options": [
+        "35",
+        "20",
+        "29",
+        "30"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-009",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "13",
+        "19",
+        "21",
+        "15"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-010",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "9",
+        "19",
+        "20",
+        "13"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-011",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 8, 11, 14, ?",
+      "options": [
+        "24",
+        "17",
+        "10",
+        "20"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-012",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "19",
+        "21",
+        "22",
+        "15"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-013",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "17",
+        "26",
+        "29",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-014",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 9, 13, 17, ?",
+      "options": [
+        "17",
+        "26",
+        "21",
+        "14"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-015",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 6, 11, 16, 21, ?",
+      "options": [
+        "26",
+        "28",
+        "29",
+        "36"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-016",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 6, 12, 18, 24, ?",
+      "options": [
+        "32",
+        "33",
+        "30",
+        "39"
+      ],
+      "answer": "30",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-017",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "25",
+        "19",
+        "12",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-018",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 4, 9, 14, 19, ?",
+      "options": [
+        "24",
+        "32",
+        "29",
+        "23"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-019",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "19",
+        "29",
+        "22",
+        "30"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-020",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 7, 12, 17, ?",
+      "options": [
+        "26",
+        "12",
+        "13",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-021",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 6, 11, 16, ?",
+      "options": [
+        "18",
+        "13",
+        "21",
+        "15"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-022",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "18",
+        "19",
+        "14",
+        "15"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-023",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 8, 13, 18, 23, ?",
+      "options": [
+        "38",
+        "35",
+        "28",
+        "36"
+      ],
+      "answer": "28",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-024",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 7, 13, 19, ?",
+      "options": [
+        "25",
+        "26",
+        "35",
+        "17"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-025",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "27",
+        "15",
+        "20",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-026",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 4, 8, 12, 16, ?",
+      "options": [
+        "10",
+        "12",
+        "20",
+        "29"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-027",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "10",
+        "18",
+        "19"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-028",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 8, 11, 14, ?",
+      "options": [
+        "17",
+        "26",
+        "19",
+        "21"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-029",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "15",
+        "13",
+        "14",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-030",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 14, 19, 24, ?",
+      "options": [
+        "34",
+        "19",
+        "29",
+        "39"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-031",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 4, 9, 14, 19, ?",
+      "options": [
+        "24",
+        "19",
+        "20",
+        "28"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-032",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-033",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 14, 19, 24, ?",
+      "options": [
+        "23",
+        "31",
+        "29",
+        "39"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-034",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "17",
+        "27",
+        "13",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-035",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 14, 18, 22, ?",
+      "options": [
+        "32",
+        "26",
+        "29",
+        "23"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-036",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "24",
+        "31",
+        "30",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-037",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "16",
+        "25",
+        "7",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-038",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 7, 12, 17, ?",
+      "options": [
+        "32",
+        "15",
+        "22",
+        "23"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-039",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 8, 12, 16, 20, ?",
+      "options": [
+        "24",
+        "27",
+        "14",
+        "22"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-040",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 14, 18, 22, ?",
+      "options": [
+        "26",
+        "35",
+        "36",
+        "34"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-041",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "20",
+        "29",
+        "14",
+        "15"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-042",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 12, 17, 22, ?",
+      "options": [
+        "33",
+        "18",
+        "27",
+        "20"
+      ],
+      "answer": "27",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-043",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 8, 13, 18, 23, ?",
+      "options": [
+        "32",
+        "28",
+        "20",
+        "22"
+      ],
+      "answer": "28",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-044",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 15, 21, 27, ?",
+      "options": [
+        "33",
+        "34",
+        "28",
+        "30"
+      ],
+      "answer": "33",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-045",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 9, 13, 17, ?",
+      "options": [
+        "29",
+        "27",
+        "20",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-046",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "13",
+        "19",
+        "21",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-047",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 12, 17, 22, ?",
+      "options": [
+        "25",
+        "27",
+        "28",
+        "31"
+      ],
+      "answer": "27",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-048",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "18",
+        "12",
+        "21",
+        "31"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-049",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 9, 13, 17, ?",
+      "options": [
+        "17",
+        "21",
+        "25",
+        "31"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-050",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 6, 11, 16, 21, ?",
+      "options": [
+        "26",
+        "27",
+        "36",
+        "31"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-051",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 16, 22, 28, ?",
+      "options": [
+        "29",
+        "34",
+        "26",
+        "37"
+      ],
+      "answer": "34",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-052",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 9, 15, 21, ?",
+      "options": [
+        "24",
+        "18",
+        "26",
+        "27"
+      ],
+      "answer": "27",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-053",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 7, 13, 19, ?",
+      "options": [
+        "25",
+        "19",
+        "28",
+        "21"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-054",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 7, 13, 19, ?",
+      "options": [
+        "25",
+        "26",
+        "34",
+        "22"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-055",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "8",
+        "18",
+        "28",
+        "20"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-056",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 11, 17, 23, ?",
+      "options": [
+        "21",
+        "31",
+        "29",
+        "23"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-057",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 9, 13, 17, ?",
+      "options": [
+        "11",
+        "21",
+        "22",
+        "15"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-058",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 15, 21, 27, ?",
+      "options": [
+        "33",
+        "29",
+        "25",
+        "41"
+      ],
+      "answer": "33",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-059",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 8, 13, 18, ?",
+      "options": [
+        "28",
+        "20",
+        "14",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-060",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 13, 19, 25, ?",
+      "options": [
+        "24",
+        "40",
+        "38",
+        "31"
+      ],
+      "answer": "31",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-061",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "25",
+        "34",
+        "22",
+        "17"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-062",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 16, 22, 28, ?",
+      "options": [
+        "32",
+        "34",
+        "35",
+        "44"
+      ],
+      "answer": "34",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-063",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 14, 18, 22, ?",
+      "options": [
+        "32",
+        "33",
+        "26",
+        "34"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-064",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "13",
+        "21",
+        "22",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-065",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 8, 14, 20, 26, ?",
+      "options": [
+        "32",
+        "25",
+        "34",
+        "37"
+      ],
+      "answer": "32",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-066",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "24",
+        "28",
+        "13",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-067",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "26",
+        "27",
+        "15",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-068",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "15",
+        "21",
+        "22",
+        "30"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-069",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 5, 8, 11, 14, ?",
+      "options": [
+        "17",
+        "27",
+        "21",
+        "9"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-070",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "17",
+        "18",
+        "29",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-071",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 12, 17, 22, ?",
+      "options": [
+        "24",
+        "27",
+        "28",
+        "37"
+      ],
+      "answer": "27",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-072",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 14, 19, 24, ?",
+      "options": [
+        "33",
+        "37",
+        "28",
+        "29"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-073",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "9",
+        "14",
+        "15"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-074",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "16",
+        "25",
+        "34",
+        "28"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-075",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "31",
+        "12",
+        "22",
+        "23"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-076",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 10, 16, 22, 28, ?",
+      "options": [
+        "34",
+        "42",
+        "28",
+        "39"
+      ],
+      "answer": "34",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-077",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 6, 11, 16, ?",
+      "options": [
+        "16",
+        "13",
+        "21",
+        "23"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-078",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 8, 13, 18, 23, ?",
+      "options": [
+        "26",
+        "28",
+        "37",
+        "31"
+      ],
+      "answer": "28",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-079",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 13, 19, 25, ?",
+      "options": [
+        "33",
+        "26",
+        "28",
+        "31"
+      ],
+      "answer": "31",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-080",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "16",
+        "17",
+        "10",
+        "26"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-081",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 12, 17, 22, ?",
+      "options": [
+        "17",
+        "27",
+        "21",
+        "30"
+      ],
+      "answer": "27",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-082",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "24",
+        "17",
+        "11",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-083",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "19",
+        "15",
+        "29",
+        "23"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-084",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "9",
+        "18",
+        "19",
+        "12"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-085",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 8, 14, 20, ?",
+      "options": [
+        "17",
+        "26",
+        "20",
+        "34"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-086",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "24",
+        "19",
+        "20",
+        "14"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-087",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 6, 11, 16, 21, ?",
+      "options": [
+        "17",
+        "26",
+        "35",
+        "33"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-088",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 12, 17, 22, ?",
+      "options": [
+        "34",
+        "27",
+        "20",
+        "28"
+      ],
+      "answer": "27",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-089",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 4, 7, 10, ?",
+      "options": [
+        "18",
+        "11",
+        "13",
+        "15"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-090",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "17",
+        "21",
+        "14",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-091",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "8",
+        "18",
+        "25"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-092",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "16",
+        "19",
+        "18",
+        "27"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-093",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "27",
+        "20",
+        "29",
+        "22"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-094",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "9",
+        "26",
+        "19",
+        "29"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-095",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "8",
+        "19",
+        "14",
+        "23"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-096",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 1, 7, 13, 19, ?",
+      "options": [
+        "25",
+        "18",
+        "19",
+        "31"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 6."
+    },
+    {
+      "id": "H-097",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "25",
+        "26",
+        "19",
+        "20"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "H-098",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 14, 19, 24, ?",
+      "options": [
+        "26",
+        "29",
+        "38",
+        "23"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 5."
+    },
+    {
+      "id": "H-099",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "25",
+        "26",
+        "19",
+        "21"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "H-100",
+      "topic": "Number Series",
+      "difficulty": 3,
+      "question": "Find the next number: 9, 14, 19, 24, ?",
+      "options": [
+        "24",
+        "33",
+        "29",
+        "30"
+      ],
+      "answer": "29",
+      "explanation": "Numbers increase by 5."
+    }
+  ]
+}

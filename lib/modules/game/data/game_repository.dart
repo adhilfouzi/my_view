@@ -1,7 +1,11 @@
+import 'dart:convert';
+import 'package:flutter/services.dart';
 import '../models/game_model.dart';
 
 class GameRepository {
   static final List<GameQuestion> _allQuestions = [
+    // ... (Keep existing questions to minimal diff if possible, but I'll likely overwrite or just append)
+    // Actually, I should just make it a growable list initialized with the consts.
     // --- KIDS (6-9) ---
     // Math
     const GameQuestion(
@@ -126,10 +130,71 @@ class GameRepository {
     ),
   ];
 
-  static List<GameQuestion> getQuestions({
+  static bool _isLoaded = false;
+
+  static Future<void> loadMathQuestions() async {
+    if (_isLoaded) return;
+
+    try {
+      final files = {
+        'assets/jsons/math/math_easy.json': AgeGroup.kids,
+        'assets/jsons/math/math_medium.json': AgeGroup.teens,
+        'assets/jsons/math/math_hard.json': AgeGroup.adults, // and students
+      };
+
+      for (var entry in files.entries) {
+        final String jsonString = await rootBundle.loadString(entry.key);
+        final Map<String, dynamic> data = json.decode(jsonString);
+        final List<dynamic> questions = data['questions'];
+
+        for (var q in questions) {
+          _allQuestions.add(
+            GameQuestion(
+              id: q['id'],
+              question: q['question'],
+              options: List<String>.from(q['options']),
+              correctAnswer: q['answer'],
+              explanation: q['explanation'],
+              ageGroup: entry.value,
+              subject: Subject.math,
+              type: GameType.mcq,
+              difficulty: q['difficulty'] ?? 1,
+            ),
+          );
+
+          // Map hard to Students as well if needed, or leave gaps
+          if (entry.value == AgeGroup.adults) {
+            _allQuestions.add(
+              GameQuestion(
+                id: "${q['id']}_s",
+                question: q['question'],
+                options: List<String>.from(q['options']),
+                correctAnswer: q['answer'],
+                explanation: q['explanation'],
+                ageGroup: AgeGroup.students,
+                subject: Subject.math,
+                type: GameType.mcq,
+                difficulty: q['difficulty'] ?? 1,
+              ),
+            );
+          }
+        }
+      }
+      _isLoaded = true;
+    } catch (e) {
+      print("Error loading math questions: $e");
+    }
+  }
+
+  static Future<List<GameQuestion>> getQuestions({
     required AgeGroup age,
     required Subject subject,
-  }) {
+  }) async {
+    // Ensure loaded if asking for Math
+    if (subject == Subject.math && !_isLoaded) {
+      await loadMathQuestions();
+    }
+
     return _allQuestions
         .where((q) => q.ageGroup == age && q.subject == subject)
         .toList();

@@ -1,0 +1,2810 @@
+{
+  "meta": {
+    "subject": "math",
+    "category": "logical_reasoning",
+    "difficulty": "easy",
+    "totalQuestions": 200
+  },
+  "questions": [
+    {
+      "id": "E-001",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "16",
+        "18",
+        "12",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-002",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "10",
+        "7",
+        "15"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-003",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "21",
+        "12",
+        "13",
+        "22"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-004",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "2",
+        "12",
+        "14",
+        "22"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-005",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "27",
+        "18",
+        "11",
+        "15"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-006",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "21",
+        "22",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-007",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "6",
+        "21",
+        "14",
+        "23"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-008",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "0",
+        "10",
+        "18",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-009",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "0",
+        "8",
+        "10",
+        "6"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-010",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "18",
+        "27",
+        "25"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-011",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "10",
+        "21",
+        "14",
+        "23"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-012",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "16",
+        "18",
+        "11",
+        "14"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-013",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "26",
+        "19",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-014",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "19",
+        "12",
+        "13",
+        "15"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-015",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "17",
+        "16",
+        "14"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-016",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "4",
+        "5",
+        "-2"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-017",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "16",
+        "9",
+        "18",
+        "26"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-018",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "9",
+        "3",
+        "12",
+        "22"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-019",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "0",
+        "9",
+        "1",
+        "7"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-020",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "3",
+        "17",
+        "11",
+        "13"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-021",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "26",
+        "13",
+        "25"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-022",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "10",
+        "5",
+        "-3",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-023",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "22"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-024",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 9, 10, 11, ?",
+      "options": [
+        "8",
+        "12",
+        "20",
+        "6"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-025",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "0",
+        "10",
+        "2"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-026",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "5",
+        "3",
+        "13",
+        "6"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-027",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "24",
+        "9",
+        "14",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-028",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "10",
+        "20",
+        "12",
+        "15"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-029",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "8",
+        "17",
+        "10",
+        "21"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-030",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "12",
+        "20",
+        "6",
+        "7"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-031",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "25",
+        "11",
+        "6",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-032",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "11",
+        "12",
+        "21",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-033",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "26",
+        "25",
+        "7"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-034",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "10",
+        "26",
+        "11"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-035",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-036",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "17",
+        "13",
+        "25",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-037",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "3",
+        "-2",
+        "6"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-038",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "1",
+        "-4",
+        "6",
+        "-2"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-039",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "16",
+        "10",
+        "20",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-040",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "9",
+        "19",
+        "4",
+        "15"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-041",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "17",
+        "13",
+        "22",
+        "7"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-042",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "10",
+        "22",
+        "14",
+        "6"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-043",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "9",
+        "18",
+        "11",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-044",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "8",
+        "17",
+        "19",
+        "7"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-045",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "8",
+        "11",
+        "20",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-046",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "6"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-047",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "18",
+        "13",
+        "22",
+        "15"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-048",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "16",
+        "9",
+        "22",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-049",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "19",
+        "3",
+        "13",
+        "15"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-050",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "0",
+        "16",
+        "10",
+        "20"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-051",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "12",
+        "20",
+        "6",
+        "14"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-052",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "9",
+        "10",
+        "6",
+        "15"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-053",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "0",
+        "13",
+        "5",
+        "-1"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-054",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "8",
+        "1",
+        "11",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-055",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 9, 10, 11, ?",
+      "options": [
+        "4",
+        "12",
+        "13",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-056",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "9",
+        "11",
+        "12",
+        "5"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-057",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "9",
+        "10",
+        "18"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-058",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-059",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "2",
+        "13",
+        "5",
+        "-1"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-060",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "11",
+        "13",
+        "6",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-061",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "11",
+        "13",
+        "-2",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-062",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "9",
+        "20",
+        "13",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-063",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "25",
+        "10",
+        "7"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-064",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "18",
+        "26",
+        "13",
+        "15"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-065",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "18",
+        "11",
+        "6",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-066",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "8",
+        "1",
+        "10",
+        "3"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-067",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "-5",
+        "12",
+        "5",
+        "-2"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-068",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "0",
+        "12",
+        "13"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-069",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "12",
+        "13",
+        "7"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-070",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "9",
+        "5",
+        "19",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-071",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "10",
+        "5",
+        "13",
+        "15"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-072",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "26",
+        "21",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-073",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "16",
+        "10",
+        "21",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-074",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "25",
+        "21",
+        "15"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-075",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "16",
+        "17",
+        "22",
+        "14"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-076",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "16",
+        "17",
+        "10",
+        "18"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-077",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "5",
+        "20",
+        "7",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-078",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "8",
+        "11",
+        "12",
+        "6"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-079",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "11",
+        "10",
+        "3",
+        "12"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-080",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "1",
+        "10",
+        "2",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-081",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "24",
+        "18",
+        "19",
+        "14"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-082",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "25",
+        "18",
+        "14",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-083",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "8",
+        "23",
+        "13",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-084",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "25",
+        "18",
+        "20",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-085",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 9, 10, 11, ?",
+      "options": [
+        "17",
+        "12",
+        "21",
+        "6"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-086",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "19",
+        "6",
+        "7"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-087",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "24",
+        "9",
+        "12",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-088",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "11",
+        "5",
+        "14",
+        "7"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-089",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "0",
+        "9",
+        "10",
+        "19"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-090",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "9",
+        "10",
+        "2",
+        "12"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-091",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 9, 10, 11, ?",
+      "options": [
+        "2",
+        "12",
+        "21",
+        "6"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-092",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "10",
+        "19",
+        "13",
+        "7"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-093",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "1",
+        "11",
+        "4",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-094",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-095",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "17",
+        "20",
+        "5",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-096",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "8",
+        "20",
+        "9"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-097",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "24",
+        "9",
+        "14",
+        "7"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-098",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "24",
+        "8",
+        "18",
+        "10"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-099",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "17",
+        "5",
+        "4",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-100",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "8",
+        "17",
+        "12",
+        "6"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-101",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "17",
+        "10",
+        "3",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-102",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-103",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "9",
+        "18",
+        "11",
+        "20"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-104",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "18",
+        "-1",
+        "6"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-105",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "6"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-106",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "21"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-107",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "16",
+        "17",
+        "10",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-108",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "12",
+        "13",
+        "22",
+        "7"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-109",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "8",
+        "17",
+        "9",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-110",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "16",
+        "9",
+        "10",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-111",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "3",
+        "9",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-112",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "19",
+        "4",
+        "14",
+        "15"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-113",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-114",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "10",
+        "3",
+        "-1"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-115",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "9",
+        "5",
+        "1",
+        "-1"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-116",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "21",
+        "7",
+        "13",
+        "23"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-117",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "5",
+        "10",
+        "12",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-118",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "2",
+        "12",
+        "6"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-119",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "20",
+        "25",
+        "9"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-120",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "10",
+        "19",
+        "20"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-121",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "9",
+        "-1",
+        "17",
+        "6"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-122",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "0",
+        "9",
+        "17",
+        "16"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-123",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "24",
+        "19",
+        "22"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-124",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "23"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-125",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "16",
+        "8",
+        "12",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-126",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "10",
+        "11",
+        "13",
+        "15"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-127",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "18",
+        "3",
+        "13",
+        "6"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-128",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "9",
+        "5",
+        "12",
+        "4"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-129",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-130",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "2",
+        "-1",
+        "6"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-131",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "3",
+        "-4",
+        "6",
+        "14"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-132",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "17",
+        "21",
+        "22"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-133",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "6"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-134",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "18",
+        "23",
+        "21",
+        "15"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-135",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "14"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-136",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "8",
+        "17",
+        "10",
+        "12"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-137",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "8",
+        "9",
+        "11",
+        "4"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-138",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "24",
+        "17",
+        "25",
+        "9"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-139",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "8",
+        "9",
+        "18",
+        "0"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-140",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "3"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-141",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "20",
+        "13",
+        "14",
+        "7"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-142",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "9",
+        "3",
+        "13",
+        "17"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-143",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 9, 10, 11, ?",
+      "options": [
+        "5",
+        "11",
+        "12",
+        "20"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-144",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "18",
+        "4",
+        "13",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-145",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "8",
+        "4",
+        "-2",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-146",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "8",
+        "9",
+        "1",
+        "7"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-147",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "3",
+        "11",
+        "5",
+        "14"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-148",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "0",
+        "7",
+        "6",
+        "-1"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-149",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "9",
+        "6",
+        "17",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-150",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "9",
+        "10",
+        "18",
+        "-1"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-151",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "1",
+        "10",
+        "7",
+        "15"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-152",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "25",
+        "18",
+        "11",
+        "9"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-153",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "8",
+        "17",
+        "27",
+        "7"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-154",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "18",
+        "12",
+        "13",
+        "23"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-155",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "16",
+        "3",
+        "13",
+        "7"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-156",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "3",
+        "-3",
+        "6",
+        "15"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-157",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "0",
+        "9",
+        "5",
+        "6"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-158",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "10",
+        "20",
+        "4",
+        "5"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-159",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "16",
+        "11",
+        "5",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-160",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "8",
+        "13",
+        "4",
+        "5"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-161",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "8",
+        "17",
+        "20",
+        "25"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-162",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "9",
+        "10",
+        "19",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-163",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 9, 10, 11, ?",
+      "options": [
+        "16",
+        "9",
+        "12",
+        "13"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-164",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "8",
+        "16",
+        "14",
+        "6"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-165",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "8",
+        "19",
+        "4",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-166",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "1",
+        "13",
+        "-3",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-167",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "-4",
+        "7",
+        "6",
+        "-1"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-168",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "9",
+        "-4",
+        "6",
+        "7"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-169",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "13",
+        "20",
+        "4",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-170",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "10",
+        "11",
+        "14",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-171",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 9, 10, 11, ?",
+      "options": [
+        "16",
+        "2",
+        "19",
+        "12"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-172",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "25",
+        "12",
+        "24"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-173",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "9",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-174",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "0",
+        "13",
+        "5",
+        "-2"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-175",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 7, 8, 9, ?",
+      "options": [
+        "11",
+        "10",
+        "3",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-176",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "14"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-177",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "21"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-178",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "11",
+        "19",
+        "21",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-179",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "13",
+        "20",
+        "21"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-180",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "8",
+        "17",
+        "26",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-181",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 10, 11, 12, 13, ?",
+      "options": [
+        "23",
+        "21",
+        "14",
+        "22"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-182",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "17",
+        "18",
+        "20",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-183",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "9",
+        "23",
+        "13",
+        "7"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-184",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "0",
+        "10",
+        "5",
+        "15"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-185",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "3",
+        "17",
+        "11",
+        "12"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-186",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "8",
+        "18",
+        "11",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-187",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "16",
+        "10",
+        "2",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-188",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 1, 2, 3, 4, ?",
+      "options": [
+        "9",
+        "11",
+        "12",
+        "5"
+      ],
+      "answer": "5",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-189",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "9",
+        "18",
+        "22"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-190",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "9",
+        "13",
+        "1",
+        "-1"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-191",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 3, 4, 5, ?",
+      "options": [
+        "0",
+        "10",
+        "6",
+        "-1"
+      ],
+      "answer": "6",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-192",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "11",
+        "-2",
+        "-1",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-193",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "24",
+        "17",
+        "26",
+        "12"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-194",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 7, 8, 9, 10, ?",
+      "options": [
+        "18",
+        "11",
+        "20",
+        "6"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-195",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 4, 5, 6, 7, ?",
+      "options": [
+        "8",
+        "17",
+        "18",
+        "4"
+      ],
+      "answer": "8",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-196",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "8",
+        "22",
+        "7"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "E-197",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 3, 4, 5, 6, ?",
+      "options": [
+        "10",
+        "15",
+        "13",
+        "7"
+      ],
+      "answer": "7",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-198",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 5, 6, 7, 8, ?",
+      "options": [
+        "16",
+        "9",
+        "5",
+        "1"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-199",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 9, 10, 11, 12, ?",
+      "options": [
+        "5",
+        "20",
+        "12",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 1."
+    },
+    {
+      "id": "E-200",
+      "topic": "Number Series",
+      "difficulty": 1,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "17",
+        "10",
+        "3",
+        "20"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    }
+  ]
+}

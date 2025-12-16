@@ -25,8 +25,8 @@ class GameController extends GetxController {
     loadQuestions();
   }
 
-  void loadQuestions() {
-    questions.value = GameRepository.getQuestions(
+  Future<void> loadQuestions() async {
+    questions.value = await GameRepository.getQuestions(
       age: currentAgeGroup,
       subject: currentSubject,
     );

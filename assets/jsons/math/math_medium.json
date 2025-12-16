@@ -1,0 +1,2810 @@
+{
+  "meta": {
+    "subject": "math",
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "totalQuestions": 200
+  },
+  "questions": [
+    {
+      "id": "M-001",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "27",
+        "18",
+        "11",
+        "20"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-002",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "11",
+        "12",
+        "21",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-003",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "10",
+        "7",
+        "5",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-004",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "18",
+        "7",
+        "15"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-005",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "27",
+        "20",
+        "21",
+        "30"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-006",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "17",
+        "18",
+        "26",
+        "25"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-007",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "32",
+        "17",
+        "18",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-008",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "8",
+        "24",
+        "14",
+        "7"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-009",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "18",
+        "21",
+        "7"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-010",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "24",
+        "17",
+        "18",
+        "19"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-011",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "27",
+        "17",
+        "11",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-012",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "17",
+        "18",
+        "20",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-013",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "11",
+        "20",
+        "12"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-014",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "17",
+        "19",
+        "13",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-015",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "16",
+        "9",
+        "2",
+        "5"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-016",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "8",
+        "9",
+        "12",
+        "-1"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-017",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "32",
+        "17",
+        "22",
+        "23"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-018",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "2",
+        "11",
+        "12",
+        "20"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-019",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "3",
+        "12",
+        "14"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-020",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "8",
+        "18",
+        "27",
+        "22"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-021",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "17",
+        "26",
+        "21",
+        "7"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-022",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "24",
+        "25",
+        "15",
+        "23"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-023",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "17",
+        "18",
+        "28",
+        "14"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-024",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "24",
+        "9",
+        "18",
+        "13"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-025",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "18",
+        "26",
+        "20",
+        "23"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-026",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "24",
+        "11",
+        "14",
+        "6"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-027",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "11",
+        "25",
+        "18",
+        "10"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-028",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "22"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-029",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "9",
+        "26",
+        "8"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-030",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "18",
+        "10",
+        "12",
+        "14"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-031",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 8, 12, 16, ?",
+      "options": [
+        "16",
+        "20",
+        "12",
+        "30"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-032",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "16",
+        "26",
+        "28",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-033",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "16",
+        "19",
+        "21",
+        "23"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-034",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "24",
+        "19",
+        "21",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-035",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 9, 13, 17, ?",
+      "options": [
+        "17",
+        "26",
+        "13",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-036",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "8",
+        "13",
+        "14",
+        "22"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-037",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "18",
+        "19",
+        "29",
+        "15"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-038",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "22",
+        "5",
+        "14",
+        "6"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-039",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "18",
+        "11",
+        "15"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-040",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "24",
+        "8",
+        "18",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-041",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "17",
+        "13",
+        "25"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-042",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "19",
+        "12",
+        "21",
+        "15"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-043",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "27",
+        "11",
+        "19",
+        "13"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-044",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "21",
+        "14",
+        "7"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-045",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 8, 12, 16, ?",
+      "options": [
+        "28",
+        "20",
+        "12",
+        "30"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-046",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "2",
+        "19",
+        "12",
+        "20"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-047",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "8",
+        "17",
+        "11",
+        "5"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-048",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "27",
+        "16",
+        "19",
+        "29"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-049",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "26",
+        "19",
+        "12",
+        "14"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-050",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "17",
+        "12",
+        "13",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-051",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "7",
+        "13",
+        "22",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-052",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "5",
+        "12",
+        "21",
+        "6"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-053",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "3",
+        "11",
+        "14",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-054",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "11",
+        "17",
+        "19",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-055",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "19",
+        "-1",
+        "14"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-056",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "9",
+        "18",
+        "11",
+        "12"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-057",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 12, 16, 20, ?",
+      "options": [
+        "24",
+        "32",
+        "30",
+        "22"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-058",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "20",
+        "29",
+        "14",
+        "22"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-059",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 4, 7, 10, ?",
+      "options": [
+        "7",
+        "13",
+        "6",
+        "15"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-060",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "9",
+        "11",
+        "14",
+        "15"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-061",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "10",
+        "14",
+        "23"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-062",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "25",
+        "18",
+        "28",
+        "20"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-063",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "18",
+        "11",
+        "13"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-064",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "16",
+        "25",
+        "33",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-065",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 14, 18, 22, ?",
+      "options": [
+        "33",
+        "26",
+        "29",
+        "23"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-066",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "18",
+        "13",
+        "14",
+        "23"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-067",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "10",
+        "19",
+        "15"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-068",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "18",
+        "11",
+        "15"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-069",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "17",
+        "28",
+        "29",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-070",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "17",
+        "5",
+        "14",
+        "15"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-071",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "22",
+        "21",
+        "30",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-072",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "17",
+        "14",
+        "7"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-073",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "16",
+        "17",
+        "5",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-074",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "9",
+        "18",
+        "26",
+        "17"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-075",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "17",
+        "18",
+        "27",
+        "22"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-076",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "8",
+        "17",
+        "20",
+        "22"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-077",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 9, 13, 17, ?",
+      "options": [
+        "24",
+        "18",
+        "26",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-078",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "8",
+        "11",
+        "23"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-079",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "16",
+        "18",
+        "12",
+        "20"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-080",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "8",
+        "17",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-081",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "9",
+        "18",
+        "10",
+        "23"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-082",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "26",
+        "21",
+        "15"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-083",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "24",
+        "18",
+        "26",
+        "14"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-084",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "13",
+        "11",
+        "21",
+        "31"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-085",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 12, 16, 20, ?",
+      "options": [
+        "24",
+        "32",
+        "20",
+        "15"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-086",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "16",
+        "17",
+        "14",
+        "25"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-087",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 6, 10, 14, ?",
+      "options": [
+        "18",
+        "27",
+        "12",
+        "23"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-088",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "11",
+        "21",
+        "22"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-089",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "27",
+        "19",
+        "29",
+        "22"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-090",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 4, 7, 10, ?",
+      "options": [
+        "21",
+        "13",
+        "22",
+        "23"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-091",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "8",
+        "11",
+        "15",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-092",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "16",
+        "17",
+        "20",
+        "14"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-093",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "0",
+        "10",
+        "18",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-094",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "24",
+        "17",
+        "12",
+        "13"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-095",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "27",
+        "25",
+        "19",
+        "12"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-096",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "14"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-097",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "18",
+        "27",
+        "20",
+        "15"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-098",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "4",
+        "12",
+        "5",
+        "6"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-099",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "16",
+        "17",
+        "27",
+        "25"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-100",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "16",
+        "18",
+        "14",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-101",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "10",
+        "11",
+        "14",
+        "22"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-102",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "17",
+        "28",
+        "21",
+        "23"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-103",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "15",
+        "6",
+        "-1"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-104",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "16",
+        "17",
+        "26",
+        "20"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-105",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "19",
+        "12",
+        "22",
+        "15"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-106",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-107",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "28",
+        "21",
+        "30",
+        "14"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-108",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "25",
+        "34",
+        "20",
+        "30"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-109",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "3",
+        "2",
+        "11",
+        "7"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-110",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "19",
+        "10",
+        "18",
+        "6"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-111",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 8, 12, 16, ?",
+      "options": [
+        "17",
+        "20",
+        "22",
+        "15"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-112",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "8",
+        "17",
+        "12",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-113",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 8, 12, 16, ?",
+      "options": [
+        "18",
+        "20",
+        "14",
+        "22"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-114",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "17",
+        "18",
+        "13",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-115",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "27",
+        "25",
+        "18",
+        "11"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-116",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "17",
+        "20",
+        "12"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-117",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "12",
+        "28",
+        "21",
+        "22"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-118",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 12, 16, 20, ?",
+      "options": [
+        "24",
+        "23",
+        "31",
+        "15"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-119",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "10",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-120",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 4, 6, 8, ?",
+      "options": [
+        "1",
+        "10",
+        "3",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-121",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 4, 7, 10, ?",
+      "options": [
+        "11",
+        "17",
+        "3",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-122",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 9, 13, 17, ?",
+      "options": [
+        "24",
+        "27",
+        "21",
+        "30"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-123",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "24",
+        "27",
+        "29",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-124",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "26",
+        "20",
+        "22",
+        "31"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-125",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 4, 7, 10, ?",
+      "options": [
+        "17",
+        "18",
+        "20",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-126",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "19",
+        "20",
+        "29",
+        "23"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-127",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "24",
+        "19",
+        "14",
+        "23"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-128",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "12",
+        "22",
+        "14",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-129",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "21",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-130",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "18",
+        "26",
+        "19",
+        "23"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-131",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "11",
+        "12",
+        "5",
+        "22"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-132",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "24",
+        "31",
+        "21",
+        "23"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-133",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "16",
+        "20",
+        "22",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-134",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 12, 16, 20, ?",
+      "options": [
+        "24",
+        "32",
+        "19",
+        "28"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-135",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "17",
+        "18",
+        "20",
+        "23"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-136",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "24",
+        "18",
+        "19",
+        "22"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-137",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "19",
+        "18",
+        "11",
+        "23"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-138",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "18",
+        "23",
+        "22",
+        "31"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-139",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 8, 11, 14, ?",
+      "options": [
+        "27",
+        "17",
+        "11",
+        "8"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-140",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "26",
+        "10",
+        "19",
+        "13"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-141",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "27",
+        "12",
+        "9"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-142",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "25",
+        "19",
+        "20",
+        "35"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-143",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "18",
+        "26",
+        "19",
+        "12"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-144",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 8, 12, 16, ?",
+      "options": [
+        "18",
+        "20",
+        "14",
+        "30"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-145",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "32",
+        "25",
+        "28",
+        "30"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-146",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 5, 9, 13, ?",
+      "options": [
+        "8",
+        "17",
+        "18",
+        "23"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-147",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "4",
+        "3",
+        "12",
+        "13"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-148",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "24",
+        "9",
+        "18",
+        "13"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-149",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 3, 5, 7, ?",
+      "options": [
+        "9",
+        "19",
+        "13",
+        "-1"
+      ],
+      "answer": "9",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-150",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "23",
+        "14",
+        "22",
+        "30"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-151",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "24",
+        "25",
+        "20",
+        "29"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-152",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "25",
+        "21",
+        "22",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-153",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "9",
+        "5",
+        "14",
+        "22"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-154",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "2",
+        "18",
+        "12",
+        "21"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-155",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "17",
+        "12",
+        "13",
+        "23"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-156",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "10",
+        "11",
+        "20",
+        "29"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-157",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "18",
+        "10",
+        "11",
+        "20"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-158",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "25",
+        "18",
+        "13",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-159",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 8, 11, 14, ?",
+      "options": [
+        "17",
+        "27",
+        "25",
+        "7"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-160",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "22",
+        "20",
+        "14",
+        "7"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-161",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "9",
+        "10",
+        "19"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-162",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 5, 7, 9, ?",
+      "options": [
+        "11",
+        "20",
+        "13",
+        "15"
+      ],
+      "answer": "11",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-163",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 10, 13, 16, ?",
+      "options": [
+        "25",
+        "10",
+        "19",
+        "29"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-164",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "2",
+        "10",
+        "12",
+        "4"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-165",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 11, 13, 15, ?",
+      "options": [
+        "17",
+        "27",
+        "9",
+        "15"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-166",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 7, 11, 15, ?",
+      "options": [
+        "9",
+        "19",
+        "20",
+        "14"
+      ],
+      "answer": "19",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-167",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "19",
+        "28",
+        "14",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-168",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 8, 12, 16, ?",
+      "options": [
+        "26",
+        "20",
+        "30",
+        "15"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-169",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "24",
+        "25",
+        "27",
+        "30"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-170",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 2, 5, 8, 11, ?",
+      "options": [
+        "12",
+        "4",
+        "20",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-171",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "18",
+        "19",
+        "23"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-172",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 8, 11, 14, ?",
+      "options": [
+        "24",
+        "17",
+        "20",
+        "8"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-173",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 9, 12, 15, ?",
+      "options": [
+        "18",
+        "26",
+        "28",
+        "22"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-174",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "19",
+        "27",
+        "20",
+        "30"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-175",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "19",
+        "21",
+        "22",
+        "15"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-176",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "24",
+        "17",
+        "14",
+        "15"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-177",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 12, 16, 20, ?",
+      "options": [
+        "24",
+        "27",
+        "29",
+        "23"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-178",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 12, 16, 20, ?",
+      "options": [
+        "24",
+        "21",
+        "14",
+        "15"
+      ],
+      "answer": "24",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-179",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 10, 14, 18, ?",
+      "options": [
+        "16",
+        "13",
+        "22",
+        "15"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-180",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "16",
+        "24",
+        "12",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-181",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 11, 15, 19, ?",
+      "options": [
+        "24",
+        "33",
+        "30",
+        "23"
+      ],
+      "answer": "23",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-182",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 13, 16, 19, ?",
+      "options": [
+        "24",
+        "12",
+        "22",
+        "23"
+      ],
+      "answer": "22",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-183",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 11, 14, 17, ?",
+      "options": [
+        "10",
+        "18",
+        "20",
+        "21"
+      ],
+      "answer": "20",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-184",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 14, 18, 22, ?",
+      "options": [
+        "25",
+        "26",
+        "18",
+        "22"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-185",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "10",
+        "13",
+        "7"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-186",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 12, 15, 18, ?",
+      "options": [
+        "11",
+        "19",
+        "28",
+        "21"
+      ],
+      "answer": "21",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-187",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "16",
+        "20",
+        "12",
+        "13"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-188",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 8, 11, 14, ?",
+      "options": [
+        "17",
+        "10",
+        "18",
+        "9"
+      ],
+      "answer": "17",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-189",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 12, 14, 16, ?",
+      "options": [
+        "16",
+        "9",
+        "18",
+        "14"
+      ],
+      "answer": "18",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-190",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 8, 10, 12, 14, ?",
+      "options": [
+        "16",
+        "12",
+        "6",
+        "23"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-191",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 6, 8, 10, 12, ?",
+      "options": [
+        "18",
+        "11",
+        "20",
+        "14"
+      ],
+      "answer": "14",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-192",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 7, 10, 13, ?",
+      "options": [
+        "16",
+        "26",
+        "13",
+        "15"
+      ],
+      "answer": "16",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-193",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 14, 18, 22, ?",
+      "options": [
+        "32",
+        "26",
+        "20",
+        "23"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-194",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 10, 14, 18, 22, ?",
+      "options": [
+        "17",
+        "26",
+        "36",
+        "34"
+      ],
+      "answer": "26",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-195",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 9, 13, 17, 21, ?",
+      "options": [
+        "16",
+        "25",
+        "35",
+        "23"
+      ],
+      "answer": "25",
+      "explanation": "Numbers increase by 4."
+    },
+    {
+      "id": "M-196",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 5, 7, 9, 11, ?",
+      "options": [
+        "16",
+        "12",
+        "13",
+        "7"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-197",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 4, 6, 8, 10, ?",
+      "options": [
+        "19",
+        "12",
+        "4",
+        "14"
+      ],
+      "answer": "12",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-198",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 7, 9, 11, 13, ?",
+      "options": [
+        "16",
+        "19",
+        "21",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 2."
+    },
+    {
+      "id": "M-199",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 1, 4, 7, 10, ?",
+      "options": [
+        "23",
+        "13",
+        "14",
+        "6"
+      ],
+      "answer": "13",
+      "explanation": "Numbers increase by 3."
+    },
+    {
+      "id": "M-200",
+      "topic": "Number Series",
+      "difficulty": 2,
+      "question": "Find the next number: 3, 6, 9, 12, ?",
+      "options": [
+        "8",
+        "19",
+        "13",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "Numbers increase by 3."
+    }
+  ]
+}
